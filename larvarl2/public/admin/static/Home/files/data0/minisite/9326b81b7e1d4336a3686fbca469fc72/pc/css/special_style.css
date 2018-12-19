@@ -1,0 +1,48 @@
+/* reset style */
+* { margin: 0; padding: 0; word-break: break-all; }
+body { font: 12px "Microsoft YaHei", "微软雅黑", "宋体", Arial, Helvetica, sans-serif; text-align: left;  color: #333; margin: 0px; background:#f8f8f8;}
+table { font: 12px "Microsoft YaHei", "微软雅黑", "宋体", Arial, Helvetica, sans-serif; font-size: 12px; margin: 0px; padding: 0px; border: 0px;  }
+h1,h2,h3,h4,h5,h6,div,p,img,label {margin:0px;padding:0px;border:0px;font-size:12px;}
+address,caption,cite,code,dfn,em,var,span{font-style:normal;font-weight: normal;font-size:12px;}
+ul,ol,li,dl,dt,dd {margin:0px;padding:0px;border:0px;list-style:none;display: block;font-size:12px;}
+a{text-decoration: none}
+img{border:none;}
+.f_l{float:left;}
+.f_r{float:right;}
+.mg_b10{margin-bottom: 10px}
+.w940{width:940px;}
+.w470{width:470px;}
+.w314{width:314px;}
+.w313{width:313px;}
+.w1200{width:1200px;}
+.w600{width:600px;}
+.block{display: block;}
+.auto{margin-left: auto;margin-right: auto}
+.mg_t20{margin-top:20px;}
+.mg_r20{margin-right:20px;}
+.mg_b20{margin-bottom:20px;}
+.mg_b10{margin-bottom:10px;}
+.mg_l15{margin-left:15px;}
+.bd_top_1{border-top:1px solid #dfdfdf;}
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+.special_banner{width:100%;height:430px;background:#aaa url(http://img.biyao.com/files/data0/minisite/9326b81b7e1d4336a3686fbca469fc72/pc/img/b1.jpg) center center no-repeat; display: block; }
+.special_wrap{width:1200px;margin:0 auto 20px;}
+.special_content{overflow: hidden}
+.sw_tit{padding:60px 0 30px 0; text-align: center;}
+.sp_c_right ul{margin-left: -14px;overflow: hidden}
+.sp_c_right ul li{ float:left;margin-left: 14px; display: inline;border:1px solid #fff;margin-bottom:20px;}
+.sp_c_right ul li:hover{border:1px solid #a0a0a0;}
+.pos_nav{height:48px;}
+.zt_navigation{height:48px;line-height:48px;background:#efedee;width:1200px;margin:0 auto;z-index: 100}
+.zt_navigation span{font-size:20px;color:#000;}
+.zt_navigation a{font-size:20px;color:#666;padding:0 20px; border-right:1px solid #000;height:21px;line-height:21px;}
+.zt_navigation a.last{border:none;}
+.zt_navigation a:hover{text-decoration: underline}
+.fixed_p{position: fixed;top:0;}
+.prd_more{display:block;margin:70px 0;width:474px;height:75px;line-height:75px;border:2px solid #6c4f7e;color:#6c4f7e;font-size: 24px;text-align: center;margin-left: auto;margin-right: auto}
+.prd_more:hover{border:2px solid #b48ace;}
+.prd_more span{background:url(http://img.biyao.com/files/data0/minisite/9326b81b7e1d4336a3686fbca469fc72/pc/img/link.png) no-repeat;width:13px;height:23px; display:inline-block; vertical-align: middle;margin-left: 10px}
+.n_img_box{margin-bottom:10px;}
+.n_img_box:last-child{margin-bottom:0}
+.n_img_box img{width:100%;height:300px;}

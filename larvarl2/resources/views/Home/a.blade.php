@@ -1,0 +1,1 @@
+<a href="http://www.laravel.cn/reset?id={{$id}}&token={{$token}}">找回密码</a>

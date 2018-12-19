@@ -1,0 +1,82 @@
+.help_side{width:180px;background: #eeecef;}
+.help_side dl dt{padding-top:3px;height:34px; line-height: 34px;font-size: 14px;color:#523669;border-bottom: 1px solid #dad4e0;padding:0 10px;}
+.help_side dl dd{height:40px; line-height: 40px;position: relative;padding:0 10px;}
+.help_side dl dd a{color:#535353;display: block;}
+.help_side dl dd .check_line{position: absolute;left:0;top: 0;width:3px;height:40px;background: #724a88; display: none}
+.help_side dl dd.checked{background:#ffffff;}
+.help_side dl dd.checked .check_line{display: block;}
+.help_side dl dd.checked a{color: #523669;}
+
+.help_content{width:1000px; overflow: hidden;border:1px solid #dad4e0;background: #fff;min-height: 430px}
+.help_title{padding:2px 30px 0;height:34px; line-height: 34px;font-size: 14px;color:#523669;border-bottom: 1px solid #dad4e0;}
+.help_c_box{padding:0 30px; overflow: hidden;}
+.help_guide_list{width:845px;margin: 0 auto;padding-top:22px;}
+.help_guide_list li{margin-right: 97px; float: left;}
+.help_guide_list li.last{margin-right: 0}
+.help_guide_list li a{width:91px; height:82px; background:url("http://static4.biyao.com/pc/help/img/help_guide_bg.png?v=biyao_2d70451") -10px -10px no-repeat;display: block;text-align: center;color:#fff; line-height: 30px;padding-top:10px;}
+.help_guide_list li a.checked{background:url("http://static.biyao.com/pc/help/img/help_guide_bg.png?v=biyao_2d70451") -10px -112px no-repeat;}
+.help_msg{ line-height: 24px;color:#666666;}
+.txt_bg{width:8px;height:9px;background: url("http://static1.biyao.com/pc/help/img/txt_bg.gif?v=biyao_12a1487") no-repeat;}
+
+/*help index*/
+.help_icon{ background:url("http://static2.biyao.com/pc/help/img/help_icon.png?v=biyao_4d30e60") top left no-repeat; }
+.hi_1{ width:164px; height:166px; background-position:-10px -10px; }
+.hi_2{ width:164px; height:164px; background-position:-10px -186px; }
+.hi_3{ width:164px; height:164px; background-position:-10px -360px; }
+.hi_4{ width:164px; height:164px; background-position:-10px -534px; }
+.hi_5{ width:164px; height:164px; background-position:-10px -708px; }
+.hi_6{ width:146px; height:115px; background-position:-10px -882px; }
+.hi_7{ width:9px; height:9px; background-position:-10px -1007px; position: absolute;top:22px;left:38px; }
+.hi_9{ width:9px; height:9px; background-position:-10px -1007px; }
+.hi_8{ background:url("http://static3.biyao.com/pc/help/img/hi_8.png?v=biyao_49396b2") top left no-repeat;width:164px; height:164px;  }
+.f26{ font-size: 26px}
+.col_313{color:313131;}
+.mg_t68{ margin-top: 68px}
+.mg_t116{ margin-top: 116px}
+.mg_t53{ margin-top: 53px}
+.h_msg_box{border-bottom:1px solid #cdc4d3; padding-bottom: 70px}
+.h_msg_box h3{ font-weight: normal;}
+.h_msg_con{padding:10px 15px 10px 60px; position: relative; background: #f9f8fa; width: 585px;margin-left: auto;margin-right: auto}
+.h_msg_con p{color:#666; font-size: 18px; line-height: 29px}
+
+/*server index*/
+.lineH36{ line-height: 36px}
+.col_a19{color:#a194a8;}
+.server_icon{ background:url("http://static4.biyao.com/pc/help/img/server_icon.png?v=biyao_254b46b") top left no-repeat; }
+.si_1{ width:253px; height:253px; background-position:-10px -10px; }
+.si_2{ width:252px; height:251px; background-position:-10px -273px; }
+.si_3{ width:251px; height:250px; background-position:-10px -534px; }
+.si_4{ width:115px; height:157px; background-position:-10px -794px; }
+.si_5{ width:148px; height:157px; background-position:-10px -961px; }
+.si_6{ width:125px; height:157px; background-position:-135px -794px; }
+.si_7{ width:115px; height:157px; background-position:-10px -1128px; }
+.si_8{ width:48px; height:53px; background: url(http://static.biyao.com/pc/help/img/si_8.png?v=biyao_20e4399) no-repeat; }
+.ser_condition{margin-left:-25px;}
+.ser_condition li{float: left; margin-left:50px;}
+.ser_condition li p{ line-height: 22px; width:250px; background: #f9f9f9 ; padding: 20px 0; text-align: center;margin-top: 75px; font-size: 18px; color: #666}
+.ser_provide{margin-left: 117px; margin-bottom: 44px}
+.ser_provide li{ float: left; margin-right: 104px;}
+.ser_provide li p{ font-size: 20px; color:#666; margin-top: 40px; }
+.server_entrance{margin-top: 85px; margin-bottom: 155px}
+.server_entrance_btn{width:375px; line-height: 77px; background: #ac99c1; height:77px; color:#fff; font-size: 24px;margin-top: 25px}
+
+/*全屏滚动*/
+.g_panel img{ position: absolute;top:50%;left:50%;}
+.g_wrap1{background:#f5f2ee;}
+.g_wrap1 img{ width:902px; height: 513px;margin-left: -451px;margin-top: -257px}
+.g_wrap2{background:#f6f5f5;}
+.g_wrap2 img{ width:902px; height: 674px;margin-left: -451px;margin-top: -337px}
+.g_wrap3{background:#f0f2f2;}
+.g_wrap3 img{ width:1086px; height: 629px;margin-left: -543px;margin-top: -315px}
+.g_wrap4{background:#f6f5f5;}
+.g_wrap4 img{ width:843px; height: 469px;margin-left: -422px;margin-top: -235px}
+
+.s_wrap1{background:#f5f2ee;}
+.s_wrap1 img{ width:1200px; height: 496px;margin-left: -600px;margin-top: -248px}
+.s_wrap2{background:#f1f3f3;}
+.s_wrap2 img{ width:1172px; height: 625px;margin-left: -586px;margin-top: -313px}
+.s_wrap3{background:#f9f9f9;}
+.s_wrap3 img{ width:1018px; height: 679px;margin-left: -509px;margin-top: -340px}
+
+
+

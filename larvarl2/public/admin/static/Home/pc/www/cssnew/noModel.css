@@ -1,0 +1,717 @@
+.last {
+    border-right: none!important;
+}
+/*涓讳綋閮ㄥ垎*/
+.section {
+    width: 1200px;
+    margin: 10px auto;
+}
+/*闈㈠寘灞�*/
+.section-bread {
+	position: relative;
+	z-index: 2;
+}
+.section-bread>li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+    color: #523669;
+}
+.section-bread a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #666;
+}
+.section-bread li>span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.section-bread i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.b-company {
+    position: relative;
+    cursor: pointer;
+    z-index: 3;
+}
+.b-company>i{
+    background: url("http://static4.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a") no-repeat 0 -400px;
+}
+.b-contact span {
+	display: inline-block;
+    vertical-align: middle;
+}
+/*鍏徃璇勪环鍙婅缁嗕俊鎭�*/
+.company {
+    position: absolute;
+    top: 34px;
+    left: -120px;
+    z-index: 3;
+    width: 236px;
+    padding: 0 17px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 9px #ccc;
+    background: #fff;
+    cursor: default;
+}
+.company>div {
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #ccc;
+    color: #666;
+}
+.company .company-head {
+    position: relative;
+}
+.company-icon {
+    position: relative;
+    top: -10px;
+    left: 0;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 7px;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+}
+.company-icon img {
+    width: 60px;
+    height: 60px;
+}
+.company-name {
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 30px;
+    color: #666;
+}
+.company-head b {
+    position: absolute;
+    right: -5px;
+    top: 10px;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    background: url("http://static.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a")  no-repeat -300px -579px;
+}
+.company-head i {
+    position: absolute;
+    top: -7px;
+    right: 85px;
+    z-index: 4;
+    display: inline-block;
+    width: 15px;
+    height: 9px;
+    background: url("../../../pc/www/img/dzIcon.png?v=biyao_ce0365f") no-repeat -32px -170px;
+}
+.company .company-score {
+    padding: 5px 0;
+}
+.company-score li {
+    position: relative;
+    height: 25px;
+    line-height: 25px;
+}
+.company-score i {
+    position: relative;
+    display: inline-block;
+    margin-left: 3px;
+    width: 103px;
+    height: 15px;
+    background: url("http://static2.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a") no-repeat -339px -250px;
+}
+.company-score b {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    display: inline-block;
+    height: 15px;
+    background: url("http://static3.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a") no-repeat -339px -268px;
+}
+.company-score .score-num {
+    position: absolute;
+    right: 5px;
+    color: #f49f26;
+}
+.company .company-intro {
+    padding-top: 5px;
+    color: #666;
+}
+.b-phone i{
+    background: url("http://static4.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a") no-repeat -23px -400px;
+}
+.b-contact div {
+    display: inline-block;
+    width: 85px;
+    height: 22px;
+    padding-left: 6px;
+    line-height: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.b-contact i{
+    vertical-align: middle;
+    background: url(http://static.biyao.com/pc/common/img/commonSprite.png?v=biyao_1fc6adf) no-repeat 0 2px;
+}
+/*缂栬緫鍣�*/
+.section-editor {
+    margin-top: 30px;
+    position: relative;
+}
+
+.editor-main {
+    float: left;
+}
+
+.editor-main p {
+    float: left;
+    margin-right: 14px;
+}
+
+.editor-main p img {
+    width: 580px;
+    height: 580px;
+    border: 1px solid #ccc;
+}
+
+.editor-main ul {
+    float: left;
+}
+
+.editor-main li {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 18px;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
+.editor-main .click, .panel-specs .click {
+    border: 1px solid #b768a5;
+}
+.panel-specs .gray {
+    /* border:1px dashed #999; color: #CBCBCB;cursor: auto;background-color: #F2F2F2; */
+    display:none;
+}
+.editor-panel {
+    float: right;
+    width: 465px;
+}
+
+.panel-top {
+    border-bottom: 1px solid #ccc;
+}
+
+.panel-top h1 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 14px;
+}
+
+.panel-top p {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 14px;
+}
+
+.panel-main {
+    color: #666;
+}
+
+.panel-main>li {
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.panel-main>li>div {
+    float: right;
+    width: 400px;
+}
+
+.panel-main>li>span {
+    float: left;
+    width: 65px;
+    font-size: 14px;
+}
+
+.panel-main>li li {
+    display: inline-block;
+    cursor: pointer;
+}
+.panel-press{
+	margin-bottom:15px;
+}
+.panel-press>span {
+    height: 35px;
+    line-height: 42px;
+}
+
+.panel-press>div {
+    height: 35px;
+}
+
+.panel-press>div>span {
+    display: inline-block;
+    height: 35px;
+    font-size: 14px;
+}
+
+.panel-maney {
+    color: #f85453;
+}
+
+.panel-maney i {
+    display: inline-block;
+    height: 35px;
+    vertical-align: -3px;
+    font-size: 28px;
+}
+
+.panel-duration {
+    display: inline-block;
+    height: 35px;
+    margin-left: 40px;
+    line-height: 35px;
+    vertical-align: 1px;
+}
+.panel-design{
+	margin-bottom:15px;
+}
+.panel-design>span {
+    height: 35px;
+    line-height: 35px;
+}
+
+.panel-main .panel-design>div {
+    width: 378px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+
+.panel-design>div>p{
+    position: relative;
+    height: 33px;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.panel-design>div>p span {
+    position: absolute;
+    top: -2px;
+    right: -16px;
+    width: 35px;
+    height: 33px;
+    display: inline-block;   
+    cursor: pointer;
+}
+
+.design-down {
+    border-top: 1px solid #ccc;
+}
+
+.design-down img {
+    width: 110px;
+    height: 110px;
+    margin: 10px 0;
+}
+
+.design-down div {
+    display: inline-block;
+    width: 240px;
+    margin: 10px 0 0 15px;
+    vertical-align: top;
+}
+
+.design-down p,.design-down span {
+    font-size: 14px;
+}
+
+.design-down p span {
+    display: inline-block;
+    margin: 0 12px 0 8px;
+    color: #b767a5;
+}
+
+.design-down div>span {
+    display:inline-block;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.design-down input{
+    height: 33px;
+    width: 146px;
+    border: 1px solid #ccc;
+    border-right: 0;
+    vertical-align: middle;
+    padding-left:5px;
+}
+.signcontentshow{
+	height: 33px;
+    width: 358px;
+    border: 0px;
+}
+.signboard{
+	display:none;
+}
+.design-down p i {
+    display: inline-block;
+    height: 35px;
+    width: 88px;
+    text-align: center;
+    line-height: 35px;
+    background: #b76aa5;
+    color: #fff;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.panel-specs>span {
+    height: 30px;
+    line-height: 30px;
+}
+
+.panel-specs img{
+    width: 50px;
+    height: 50px;
+}
+
+.panel-specs li {
+    display: inline-block;
+    margin: 0 11px 10px 0;
+    border: 1px solid #ccc;
+      position: relative;
+}
+.panel-specs li em {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../../../pc/www/img/sprit_biyao.png?v=biyao_f04e37a") -147px -36px no-repeat;
+  display: none;
+  }
+
+  .panel-specs .click em {  
+  display: block;
+  }
+.panel-main>.panel-specs {
+    margin-top: 5px;
+}
+
+
+
+.panel-size {
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #ccc;
+    padding: 0 23px;
+    margin: 0 15px 10px 0;
+    font-size: 14px;
+}
+
+.panel-main>.panel-count {
+    margin-top: 5px;
+}
+
+.panel-count>span {
+    height: 30px;
+    line-height: 30px;
+}
+
+.panel-num {
+    float: left;    
+    border: 1px solid #b3b3b3;
+    padding: 1px 0;
+    overflow: hidden;
+}
+
+.panel-num span {
+    float: left;
+    width: 28px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    color: #000;
+}
+
+.panel-num .panel-minus {
+    width: 23px;
+    border-right: 1px solid #e4e3e5;
+    color: #8c8b8b;
+    cursor: pointer;
+}
+
+.panel-num .panel-add {
+    width: 23px;
+    border-left: 1px solid #e4e3e5;
+    color: #8c8b8b;
+    cursor:pointer;
+}
+
+.panel-inventory {
+    float: left;
+    height: 30px;
+    margin-left: 16px;
+    line-height: 30px;
+    color: #999;
+
+}
+
+/*缂栬緫闈㈡澘搴曢儴*/
+.panel-bottom {
+    margin: 15px 0 0 65px;
+}
+
+.panel-bottom p {
+    width: 195px;
+    height: 40px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    background: #f39f25;
+    cursor: pointer;
+}
+.panel-bottom p i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 16px;
+    margin-right: 6px;
+    background: url("http://static2.biyao.com/pc/www/img/pay_bg.png?v=biyao_757fd55") no-repeat;
+}
+.panel-bottom li {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    line-height: 27px;
+    color: #666;
+    cursor: pointer;
+}
+.panel-bottom span span {
+    display: inline-block;
+    padding: 5px 0;
+    vertical-align: middle;
+}
+.panel-bottom li.p-hover div {
+    display: block;
+}
+.panel-bottom div {
+    position: absolute;
+    top: 35px;
+    left: -55px;
+    display: none;
+    width: 230px;
+    padding: 10px 15px;
+    border: 1px solid #dddddd;
+    box-shadow: 0 0 9px #ccc;
+    background: #ffffff;
+}
+.panel-bottom div span {
+    position: absolute;
+    top: -7px;
+    left: 85px;
+    z-index: 2;
+    width: 15px;
+    height: 9px;
+    background: url("http://static3.biyao.com/pc/www/img/dzIcon.png?v=biyao_ce0365f") no-repeat -32px -170px;
+}
+.panel-bottom li i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+    vertical-align: middle;
+    background:url("http://static4.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a") no-repeat -288px -70px;
+}
+/*鍟嗗搧淇℃伅 璇勪环璇︽儏 鍟嗗鏈嶅姟鏀跨瓥*/
+/*鏍囩*/
+.section-view {
+    position: relative;
+}
+.section-view img{
+    max-width: 100%;
+}
+.section-view>ul {
+    overflow: hidden;
+    border-bottom: 2px solid #e8e8e8;
+}
+.section-view>ul li {
+    float: left;
+    cursor: pointer;
+}
+.section-view>ul span {
+    display: inline-block;
+    width: 130px;
+    height: 17px;
+    margin: 10px 0;
+    line-height: 17px;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    color: #523669;
+
+}
+.section-view>span {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 37px;
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: #523669;
+}
+/*涓讳綋*/
+.view-main>div {
+    display: none;
+}
+.view-main .active {
+    display: block;
+}
+/*鍟嗗搧淇℃伅*/
+.view-details {
+    text-align: center;
+}
+/*璇勪环璇︽儏*/
+.view-evaluate .evaluate-title {
+    height: 50px;
+    margin-top: 40px;
+    line-height: 50px;
+    border: 1px solid #e8e8e8;
+    background: #f5f5f5;
+}
+.evaluate-satisfi,
+.evaluate-star,
+.evaluate-score,
+.evaluate-num{
+    display: inline-block;
+    vertical-align: middle;
+}
+.evaluate-satisfi {
+    margin: 0 20px;
+    font-size: 16px;
+    color: #666;
+}
+.evaluate-star {
+	position: relative;
+    width: 164px;
+    height: 23px;
+    margin: 0 15px;
+    background: url("http://static.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a") no-repeat -321px -190px;
+}
+.evaluate-star i {
+	position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    height: 23px;
+    background:url("../../../pc/www/img/sprit_biyao.png?v=biyao_f04e37a") no-repeat -321px -190px;
+}
+.evaluate-score {
+    font-size: 16px;
+}
+.evaluate-score span {
+    font-size: 16px;
+    color: #f49f26;
+}
+.evaluate-num {
+    margin-left: 30px;
+    color: #999;
+}
+.view-evaluate .evaluate-content {
+    margin-top: 18px;
+}
+.evaluate-content li {
+	position: relative;
+    padding: 20px 0;
+    border-bottom: 1px dotted #ccc;
+}
+.evaluate-content li img {
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border: 1px #E2E2E2 solid;
+}
+.evaluate-content li div {
+    margin-left: 130px;
+}
+.evaluate-content li p {
+    line-height: 35px;
+    color: #666;
+}
+.evaluate-content li b {
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 110px;
+    vertical-align: middle;
+    background: url("http://static2.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a") no-repeat -339px -268px;
+}
+.evaluate-content li i {
+	position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    height: 15px;
+    width: 0;
+    background: url("http://static3.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a") no-repeat -339px -268px;
+}
+.evaluate-after {
+	padding: 10px;
+	line-height: 21px!important;
+}
+.evaluate-merchants,
+.evaluate-platform {
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #e8e8e8;
+	line-height: 21px!important;
+	background: #fffdf0;
+}
+.evaluate-after span {
+	color: #F27A02;
+}
+.evaluate-merchants span {
+	color: #F27A02;
+}
+.evaluate-platform span {
+	color: #724A87;
+}
+.evaluate-time {
+    color: #999;
+}
+
+
+.view-evaluate .evaluate-page {
+	margin: 20px 0 40px;
+	text-align: center;
+}
+.evaluate-page li {
+	display: inline-block;
+	height: 26px;
+    padding: 0 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    line-height: 26px;
+    color: #3A414C;
+    cursor: pointer;
+}
+.evaluate-page .e-active {
+	border: 1px solid #f60;
+    color: #f60;
+}
+/*鏈嶅姟鏀跨瓥*/
+.view-service img {
+    width: 1200px;
+}

@@ -1,0 +1,1 @@
+function get_categoryid(e){var t=0;return 0!=e&&LT.Ajax({type:"get",dataType:"json",cache:!1,async:!1,url:"/MyCenter/Get_Categoryid?c_id="+e,success:function(e){t=e}}),t}$(function(){$("a[name='shareDesign']").click(function(e){LT.generateShareLayer.call(this),e.preventDefault()})});

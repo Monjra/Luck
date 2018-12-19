@@ -1,0 +1,26 @@
+.bg_f9f{ background: #f9f8f4}
+.bg_f0f{background: #f0f2f1}
+.join_banner{background: url(http://static.biyao.com/pc/www/img/join/banner.jpg?v=biyao_020b22f) center center no-repeat; width:100%;height:430px; text-align: center;}
+.job_box{padding:60px 100px; position: relative;}
+.job_name{height:48px; border-left:4px solid #a194a8; text-indent: 6px}
+.job_name h3{ color:#a194a8;font-size: 16px; line-height: 16px}
+.job_name p{ color:#724a88;font-size: 21px; text-decoration: underline;margin-top: 10px; line-height: 20px}
+.job_con{padding-left: 10px; line-height: 24px;}
+.job_con h4{ font-size: 14px; color:#724a88;}
+.job_con p{color:#666;}
+.job_bg{background: url(http://static1.biyao.com/pc/www/img/join/job_bg.png?v=biyao_6743ed4) no-repeat; width:662px;height:30px; position: absolute;top:0;left: 50%;margin-left: -331px;}
+
+/*联系我们*/
+.contact_banner{width:100%; background: #e9e6eb url(http://static2.biyao.com/pc/www/img/join/contact_bg.jpg?v=biyao_ee2e033) left top repeat-x;padding-bottom:30px}
+.contact_us{padding-top: 50px; }
+.pd_l18{padding-left:16px;}
+.lj_txt_bg{width:6px;height:6px;background: url("http://static3.biyao.com/pc/www/img/join/txt_bg.png?v=biyao_2099db0") no-repeat;}
+.join_email{padding-top: 300px}
+
+.sever_tel_table{margin:0 auto;border:0;}
+.sever_tel_table th,.sever_tel_table td{text-align:center;vertical-align:middle;padding:0 10px;line-height:30px;font-size:14px;border-right:3px solid #e8e6eb;border-top:3px solid #e8e6eb;}
+.sever_tel_table th{color:#fff;background:#ac98bb;border-radius:3px;font-weight:normal}
+.sever_tel_table td{color:#999;background:#f0f0f2;border-radius:3px;}
+.sever_tel_table td.st_con{padding:0;border-top:none}
+.sever_tel_table td.bd_none{border-right:none}
+.sever_tel_table .bg_eee1f2 td{background:#f6eff8}

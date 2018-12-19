@@ -1,0 +1,280 @@
+/*购物车nothing*/
+.bg_f2{background:#f2f2f2}
+.bg_f5f{background:#f5f5f5}
+.col_aaa{color:#aaa;}
+.f20{font-size: 20px;}
+.ff6600{color:#f49f26;}
+.link_09c{color:#09c}
+.col_523{color:#523669}
+.cklabel { position: relative; display: block; line-height: normal; padding-left: 20px; }
+.cklabel li { position: absolute; z-index: 1; top: 0px; left: 0px; }
+.cklabel input[type="checkbox"] { position: absolute; z-index: 2; top: 0px; left: 0px; width: 15px; height: 15px; opacity: 0.1; cursor: pointer; cursor: pointer; }
+.gxjf { position: relative; }
+.gxjf .openIcon { position: absolute; top: 0px; z-index: -1; }
+.gxjf input[type="checkbox"] { width: 16px; height: 16px; opacity: 1; cursor: pointer; opacity: 0.1; }
+.sop_nothingbox { color: #999; text-align: center; padding: 150px 0 10px 0px; overflow: hidden; }
+.toindex{padding:0px 0px 200px 0px;}
+.toindex a{background:#724a88;color:#ffffff;font-size:16px;width:120px;height:40px;line-height:40px;text-align:center;display:block}
+.sop_nothingbox img { margin-right: 10px; }
+.sop_nothingbox p { text-align: left; padding-top:20px;}
+.sop_nothingbox .sop_span { font-size: 14px; font-weight: bold; padding-bottom: 20px; color: #333; }
+.f16 { font-size: 16px; }
+.f30 { font-size: 30px; }
+/*pack select*/
+.pack_select { color: #999;width:143px;}
+    .sel_span { display: block; padding: 0 0px 0 5px; text-align:left; height: 28px; line-height: 28px; color: #666; border: 1px solid #d5cdda; background: url(http://static4.biyao.com/pc/buy/img/select.png?v=biyao_543aca6) no-repeat right center #fff; cursor: pointer; }
+    .pack_select .sel_div {position: absolute;overflow: hidden; width: 150px;border-bottom: 1px solid #ccc;margin: 1px 0px 0px -6px;}
+    .pack_select .sel_ul {background-color: #fff;border:1px solid #ccc; border-width:0 1px;  z-index:3; position:relative}
+    .pack_select ul li { padding-left: 5px; color: #333; cursor: pointer; line-height: 22px;}
+        .pack_select ul li.hovername { background-color: #eee; color:#f6}
+		.pack_select ul li.hovername dd{color:#f60}
+		.pack_select ul li:hover { background-color: #eee; color:#f6}
+        .pack_select ul li:hover dd{color:#f60}
+.pack_select .scr_com {display: block; z-index: 3000;}
+.span_cal { font-size:14px; font-weight:bold; }
+.lpBoxbd{border-bottom:1px dashed #ccc;margin-right:5px}
+.top_x { border-top: 1px dotted #dbdbdb !important; }
+.tallyBox { height: 50px; line-height: 50px; border-top: 1px solid #d5cdda; background-color: #eeecef; padding-left: 10px;  }
+.tallyBox p {color: #666; height: 48px; float:right; }
+.tallyBox p .line { width: 1px; height: 48px; background-color: #dbdbdb; }
+.tallyBTnPos {float:right;margin:10px 10px 0 30px;}
+.js_btn{width:85px; height:33px; line-height:33px; color:#fff; font-size:18px; text-align:center;background:#f49f26;}
+.paybill_title {height: 38px; position: relative; z-index: 88; }
+.paybilltitleIn {height: 38px; line-height:38px; border-top: 1px dotted #ccc;border-bottom:1px dotted #ccc;text-align: right; background-color: #fff; position: absolute;width: 100%; top:-1px;left:0; }
+.merchantMsgBox{padding:14px 0 14px 30px;}
+.lastTd td { border-bottom: none; }
+.sop_table2 { width: 100%; border-bottom: 1px solid #ebebeb; line-height: 20px; margin-bottom: 10px; }
+.sop_table2:last-child { border-bottom: none; }
+.sop_table2 th { width: 20%; padding-left: 10px; font-weight: normal; }
+.sop_table2 td { padding-bottom: 6px; }
+.sop_table3 { width: 870px; color: #333; line-height: 30px; }
+.sop_table3 th { font-weight: normal; font-size: 14px; }
+.sop_table4 { width: 100%; line-height: 20px; }
+.sop_table4 th { font-size: 12px; font-weight: normal; }
+.sop_table4 .th_title { }
+.sop_table4 td { color: #333; }
+.sop_table4 table { border-bottom: 1px solid #ebebeb; }
+.sop_table4 table:last-child { border-bottom: none; }
+.sop_table4 table td { padding: 10px 0; }
+.sop_img { display: block; width: 100px; height: 100px; }
+.sop_inp { line-height: 25px; color: #333; width: 500px; }
+.sop_inp th { font-weight: normal; font-size: 12px; text-align: right; padding: 5px 0; }
+.sop_inp td { padding: 5px 0; }
+.bd_l { border-left: 1px solid #ebebeb; }
+.bdB45{border-bottom:1px solid #ccc;}
+.order_title1 {line-height: 28px; padding-left: 10px; border-top: 1px solid #dbdbdb; border-bottom: 1px dotted #dbdbdb; }
+.address_box { min-height: 32px; line-height: 32px; color: #666;  width:100%;padding-left:10px }
+.address_box:hover{background:#f2f2f2}
+.address_box .check_span { display: inline-block; width: 25px; height: 22px; background: url(http://static.biyao.com/pc/buy/img/check_bg.png) no-repeat 0 -158px; }
+.address_box li { min-height: 32px; }
+.href_add { color: #666; background:url(http://static1.biyao.com/pc/buy/img/add_href.png?v=biyao_3acf2ad) no-repeat; width:125px; height:27px; line-height:27px; display:block;text-indent:20px; }
+.editSite,.delSite{display:none}
+.address_box:hover .editSite,.address_box:hover .delSite{display:inline-block}
+.bg_ee5b47 { background: #ccc url(http://static2.biyao.com/pc/buy/img/adressOn.png?v=biyao_0361361) no-repeat 20px 6px; border: 1px solid #ee5b47; }
+.bg_ee5b47 .shdz { font-size:13px; color:#fff; }
+.bg_ee5b47 .check_span { background: url(http://static3.biyao.com/pc/buy/img/check_bg.png) no-repeat 0 -84px; }
+.per60 { width: 60%; }
+.per10 { width: 10%; text-align: center; }
+.per8 { width: 47px;  }
+.riceiptbox { line-height: 23px; padding: 20px 0 20px 40px; }
+.riceiptbox p { line-height: 30px; color: #fff; padding-bottom: 10px; }
+.riceiptbox ul li { padding: 3px 0; }
+.firmbox { }
+.tj_box{position:relative; }
+.firmbox .titleP { height: 29px; line-height: 29px;color: #fff;}
+.firmbox .firm_ul {line-height:30px;text-align: right;color:#333; }
+.firmbox .firm_ul li {padding: 0 10px; }
+.firmbox .firm_ul .li_integrate { height: 30px; line-height: 30px; background-color: #ebebeb; border-top-right-radius: 5px; border-top-left-radius: 5px; margin-bottom: 10px; }
+.firmbox .firm_ul .integ_inp { width: 80px; height: 20px; line-height: 20px; padding: 0 3px; border-radius: 3px; background-color: #fff; border: 0; }
+.backupIcon { width: 24px; height: 18px; background: url(http://static4.biyao.com/pc/buy/img/backup.png?v=biyao_f5fd4c6) no-repeat 0 0; }
+.sop_tip { text-align: center; line-height: 40px; padding: 30px 0; }
+.paymentTab { height: 29px; line-height: 29px; text-align: center; }
+.paymentTab li { float: left; padding: 0 20px; }
+.paymentTab li.checked {color:#523669;}
+/* 新加图片*/
+.payIconBox label{float:left;margin:0 27px 20px 0;border:1px solid #e8e8e8;cursor: pointer;background:#fff}
+.payIconBox label.checked{border:1px solid #f60;}
+.bank_new{ background:url(http://static.biyao.com/pc/buy/img/bank_new.png?v=biyao_fae4fef) top left no-repeat;width:155px; height:40px;  }
+.bk1{ background-position:-10px -10px; }
+.bk2{ background-position:-10px -60px; }
+.bk3{ background-position:-10px -110px; }
+.bk4{ background-position:-10px -160px; }
+.bk5{ background-position:-10px -210px; }
+.bk6{ background-position:-10px -260px; }
+.bk7{ background-position:-10px -310px; }
+.bk8{ background-position:-10px -360px; }
+.bk9{ background-position:-10px -410px; }
+.bk10{ background-position:-10px -460px; }
+.bk11{ background-position:-10px -510px; }
+.bk12{ background-position:-10px -560px; }
+.bk13{ background-position:-10px -610px; }
+.bk14{ background-position:-10px -660px; }
+.bk15{ background-position:-10px -710px; }
+.bk16{ background-position:-10px -760px; }
+.bk17{ background-position:-10px -810px; }
+.bk18{ background-position:-10px -860px; }
+.bk19{ background-position:-10px -910px; }
+.bk20{ background:url("http://static1.biyao.com/pc/buy/img/bk20.jpg?v=biyao_6c4b77e") no-repeat;width:155px; height:40px; }
+.bk21{ background:url("http://static2.biyao.com/pc/buy/img/bk21.jpg?v=biyao_ef81bb3") no-repeat;width:155px; height:40px; }
+.weix_pay{margin-top:60px;}
+.bd_top_e8{border-top:1px solid #e8e8e8;}
+a.colH1:hover{color:#07A6DF;}
+/*新加结束*/
+.order_span { width: 60px; height: 30px; line-height: 30px; }
+.orderdetails_box1 { border: 2px solid #ee5b47; margin-top: 24px; padding: 25px; background: #fff; }
+.orderdetails_box1 p { padding-bottom: 10px; line-height: 30px; color: #666; padding-left: 15px; }
+.logistics { line-height: 30px; padding: 10px 20px; background-color: #f7f7f7; border-radius: 5px; }
+.ord_p { height: 30px; line-height: 30px; color: #666; }
+.grade_line { height: 10px; width: 342px; background: #e6e6e6; position: relative; z-index: 100; margin: 10px 0 20px; }
+.grade_line .grade_drag { display: block; position: absolute; width: 20px; height: 20px; left: 0; top: 0; z-index: 999; background: url(http://static3.biyao.com/pc/buy/img/sprit_icon.png) no-repeat -760px -350px; }
+.grade_des { line-height: 30px; width: 342px; color: #808080; }
+.grade_des li { float: left; width: 114px; }
+.span_block span { height: 20px; margin-right: 10px; }
+.grade_icon1 { width: 80px; background: url(http://static4.biyao.com/pc/buy/img/grade_icon.png) no-repeat 0 0; }
+.grade_icon1 i { width: 16px; height: 20px; }
+.grade_icon1 i.hover { background: url(http://static.biyao.com/pc/buy/img/grade_icon.png) no-repeat 0 0px; }
+.grade_icon2 { width: 80px; background: url(http://static1.biyao.com/pc/buy/img/grade_icon.png) no-repeat 0 -20px; }
+.grade_icon3 { width: 80px; background: url(http://static2.biyao.com/pc/buy/img/grade_icon.png) no-repeat 0 -40px; }
+.grade_icon4 { width: 80px; background: url(http://static3.biyao.com/pc/buy/img/grade_icon.png) no-repeat 0 -60px; }
+.grade_icon5 { width: 80px; background: url(http://static4.biyao.com/pc/buy/img/grade_icon.png) no-repeat 0 -80px; }
+.input_num { height: 28px; line-height: 28px; width: 40px; border: 1px solid #ebebeb; background-color: #fff; text-align: center; vertical-align: middle; }
+.tr_bgchecked { background: #ececec; border-radius: 5px; }
+.assess_title { line-height: 30px; border-bottom: 1px solid #ccc; }
+.assess_share { position: absolute; display: block; top: 4px; left: 620px; width: 16px; height: 20px; background: url(http://static.biyao.com/pc/buy/img/sprit_icon.png) no-repeat -768px -189px; }
+.payment_title {height: 40px; line-height: 40px; font-size: 14px; color: #999; }
+.payseccess_tip { display: inline-block; width: 28px; height: 28px; background: url(http://static1.biyao.com/pc/buy/img/tip_icon.png) no-repeat 0 -120px; position: relative; top: 5px; }
+.tip_p { line-height: 30px; color: #999; text-align: center; }
+a.consult_hide, a.consult_show { width: 18px; padding: 14px 7px 0; height: 96px; background-color: #ebebeb; line-height: 16px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; text-align: center; color: #333; position: absolute; left: 0px; top: 50%; margin-top: -55px; }
+a.consult_hide i { width: 18px; height: 18px; background: url(http://static2.biyao.com/pc/buy/img/sprit_icon.png) no-repeat -733px -223px; }
+a.consult_show { background-color: #4d4d4d; color: #fff; left: 201px; }
+a.consult_show i { width: 18px; height: 18px; background: url(http://static3.biyao.com/pc/buy/img/sprit_icon.png) no-repeat -733px -258px; }
+.address { }
+.address input[type="radio"] { width: 16px; height: 16px; opacity: 0.1; cursor: pointer; }
+.isdefault .openIcon { position: absolute; z-index: -1; margin-top: 7px; }
+.isdefault input[type="checkbox"] { width: 15px; height: 15px; opacity: 0.1; cursor: pointer; }
+.isdefault label { color: #fff; }
+.h600 { height: 590px; }
+.h210 { height: 200px; }
+.h125 { height: 115px; }
+.ad_ck .href_add { display:inline !important; }
+.set_def { color:#999; border:0; background-color:transparent;font: 12px/1.5em "Microsoft YaHei", "微软雅黑", "宋体", Arial, Helvetica, sans-serif;}
+.address_box:hover .set_def { display:inline !important; }
+.shdz { line-height:20px; }
+.f_rd { float:right !important; border-right:1px solid #ee5b47;}
+.goonShopping{width:100px;height:33px;background:#724A88; line-height:33px; color:#fff; text-align:center;font-size:16px}
+.price_cm{padding-right:95px}
+.jsBtn{top:18px}
+/*.goonShopping:hover{background-position:-88px 0;}*/
+
+.promise411{display:block}
+.shop_pack{width:470px;border:5px solid #ccc; background:#fff;padding:20px;left:60px}
+.colse_btn{background:url(http://static4.biyao.com/pc/buy/img/colse_btn.png?v=biyao_95e45eb) no-repeat; width:13px; height:13px;display:block;margin:3px}
+.packShow{ width:80px; height:50px}
+.confrim{text-align:center; height:26px; line-height:26px; font-size: 14px; background: #999999; width:65px; display:block; border-radius:2px}
+
+.text-overflow {    
+word-break:keep-all;/* 不换行 */  
+white-space:nowrap;/* 不换行 */  
+overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */  
+text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...);需与overflow:hidden;一起使用。*/  
+} 
+
+/*购物流程*/
+.shopStepBox{width:560px; position:absolute; right:0px; top:-73px;}
+.car_step_icon{background:url(http://static.biyao.com/pc/buy/img/car_steps.png?v=biyao_011f64a) left center no-repeat; width:560px;height:20px;}
+.car_step1{background-position:-30px -23px;}
+.car_step2{background-position:-30px -62px;}
+.car_step3{background-position:-30px -100px;}
+.car_step4{background-position:-30px -139px;}
+.car_step_txt{margin-top:3px;}
+.car_step_txt li{width:140px;float: left;height:19px; line-height: 19px; color:#666; text-align: center; color:#d5cdda}
+.car_step_txt li.checked{color:#724a88;}
+.order_title_n{height:50px; line-height: 50px; border-bottom:1px solid #e8e8e8;}
+
+.confirm_120,.back_120{width:120px; height:40px; line-height:40px; text-align:center;color:#fff; }
+.confirm_120{background:#f5a63e}
+.confirm_120_dis,.back_120{width:120px; height:40px; line-height:40px; text-align:center;color:#fff; }
+.confirm_120_dis{background:#cccccc}
+.back_120{background:#f49f26;}
+
+.confirm_100,.back_100{width:120px; height:35px; line-height:35px; text-align:center;color:#fff; }
+.confirm_100{background:#724a88}
+.back_100{background:#f49f26;}
+.get_paid_box{margin:0 auto; width:825px; padding-top:20px;}
+.get_paid_hd {overflow: hidden;}
+.get_paid_hd img{width:120px;height:120px;border:5px solid #fff;}
+.get_paid_con{padding-left:24px; margin-left: 14px;}
+.gp_msg{background: url("http://static1.biyao.com/pc/buy/img/gp_msg.png?v=biyao_6219786") no-repeat; width:25px;height:22px; position: absolute;top:55px;left:0;}
+.gp_main{width:603px;background: #fff;padding:15px 25px 0; overflow: hidden; border-radius: 10px;}
+.gp_main .title{height:18px; line-height: 18px; font-size: 16px; color:#523669;padding-bottom: 15px; border-bottom: 1px solid #d5cdda;}
+.gt_main_list li{height:38px; line-height: 38px; color:#666; position: relative;}
+.gt_main_list .price{position: absolute;right:0;top:0px;}
+.gt_main_list .bd_top_dotted{border-top:1px dotted #b2b2b2}
+.get_paid_xy{padding:0 20px 20px;}
+.get_paid_xy .title{color:#b768a5;font-size: 14px;}
+.get_paid_xy .msg{height:45px; line-height: 45px;background: #fee488;}
+.gp_apply{width:600px;}
+.gp_apply .title{height:20px; line-height: 20px; font-size: 18px; padding-bottom: 12px;border-bottom:1px solid #d5cdda;color:#523669;}
+.gp_bg{background:url("http://static2.biyao.com/pc/buy/img/gp_bg.png?v=biyao_77f6d01") left bottom repeat-x #fff; padding-bottom: 7px; }
+.gp_text{width:510px;height:33px;border:1px solid #d5cdda; padding: 0 5px; line-height: 33px}
+.gp_btn{font-size: 18px;color:#fff;text-align: center; width:140px;height:40px; line-height: 40px; background: #724a88}
+.get_paid_link{position: absolute;left: 20px; top:33px;}
+
+.a_delete{width:12px;height:12px;background: url("http://static3.biyao.com/pc/buy/img/a_delete.png?v=biyao_5ef7221") -10px -32px no-repeat;display:block;}
+.a_delete:hover{background-position: -10px -10px}
+.ml_list{margin-left:-26px;}
+.ml_list li{margin-left:36px;margin-bottom: 10px;}
+.order_qr_btn{width:120px;height:40px; line-height: 40px;color:#fff; background: #f49f26}
+.back_pay_btn{width:120px;height:40px; line-height: 40px;border:1px solid #ccc;background: #fff;text-align: center;}
+.suc_bg{width:112px;height:111px;background: url("http://static4.biyao.com/pc/buy/img/suc_bg.png?v=biyao_e3fd266") no-repeat;margin-right: 60px}
+
+/*体验券*/
+.experience_entrance{position: absolute;top:20px;left:20px;}
+.experience_btn{ width:138px; line-height: 38px;height:38px;border:1px solid #724a88;text-align: center; cursor: pointer;}
+.tyq_bg{ background:url("http://static.biyao.com/pc/buy/img/tyq_bg.png?v=biyao_7e8b16a") top left no-repeat; }
+.tb1{ width:14px; height:14px; background-position:-10px -10px; }
+.tb2{ width:14px; height:10px; background-position:-10px -34px; }
+.tb3{ width:14px; height:10px; background-position:-10px -54px; }
+.exper_input{width:130px;height:33px;line-height: 33px;font-size: 14px;border:1px solid #dcdcdc;padding:0 4px; font-family: "微软雅黑"}
+.experience_use_btn{width:57px;height:33px;border:1px solid #724a88;font-size: 16px; color: #724a88;text-align: center; background: #fff;}
+.experience_error_msg{margin-top: 10px; }
+/*微信支付*/
+.weixin_pay{width:610px;height:320px;background: url(http://static1.biyao.com/pc/buy/img/weixinzf.jpg?v=biyao_5d79fac) bottom right no-repeat;padding-top: 100px}
+.lineH28{line-height: 28px}
+.weix_tit_bg{width:36px; height: 33px; background: url("http://static2.biyao.com/pc/buy/img/weix_tit_bg.png?v=biyao_4e35969") no-repeat;margin-right: 15px}
+.weix_evm img{width:133px;height:133px; border:1px solid #52386a;}
+.online_info_box{border:1px solid #d5cdda; box-shadow: 0px 0px 3px #ccc;}
+.msg_pos_kc{position:absolute;top:65px; left:45px}
+
+.my_order_del{width:38px;height:23px; line-height: 23px;text-align: center;color:#999;border:1px solid #ccc;}
+.cout_down{ position: absolute;right:10px;top:0px;width:200px;}
+.cout_down .bg{width:18px;height:18px;background: url(http://static3.biyao.com/pc/buy/img/count_down_bg.png?v=biyao_8cd1421) no-repeat;}
+.time_bg{width:15px;height:20px;background: #724a88;border-radius: 2px;color:#fff;font-size: 14px; line-height: 20px;text-align: center;margin-right: 2px}
+.cout_down .separator{font-size: 14px; color:#724a88;margin-right: 2px}
+.next_time_order{width:75px;height:25px; line-height: 25px; text-align: center;color:#fff;background: #724a88;}
+.exhausted_bg{width:84px;height:74px;background: url(http://static4.biyao.com/pc/buy/img/exhausted.png?v=biyao_162c28a) no-repeat;position: absolute;top:30px;left:130px;}
+
+.sale_none{margin-bottom: 30px}
+.sale_none i.erro{background: url(http://static.biyao.com/pc/buy/img/sale_none.jpg?v=biyao_e04b32b) no-repeat;width:32px;height:32px;}
+.sale_none i.suc{background: url(http://static1.biyao.com/pc/buy/img/sale_has.jpg?v=biyao_13a4e35) no-repeat;width:33px;height:33px;}
+.sale_txt{font-size: 14px; line-height: 32px;color:#666;}
+.reservation_next{height:35px; line-height: 35px; text-align: center;background: #724A88; font-size: 14px;color:#fff;}
+.sale_btn_back{width:118px;height:33px; line-height: 33px;border:1px solid #724A88; color:#724A88;font-size: 14px; text-align: center;}
+.sale_txt a:hover .conceal_evm{display: block;}
+/*免单提示*/
+.free_msg dt{width:46px;height:46px;background:url(http://static2.biyao.com/pc/buy/img/free_bg.png?v=biyao_dbf2303) no-repeat;}
+.free_p_content dt{width:164px;}
+.free_p_content dd{width:210px;}
+.back_m_way{color:#333;line-height: 24px; font-size: 14px}
+.back_m_way span{color:#6C347F; font-size: 14px}
+.fx_free_btn{width:210px;height:35px; line-height: 35px;text-align: center; background: #5F2C70;margin-top: 10px}
+.fx_free_btn i{width:24px;height:19px;background: url(http://static3.biyao.com/pc/buy/img/fx_free_bg.png?v=biyao_a0c6112) no-repeat;}
+/*确认订单页红包*/
+.coupon_tit_show{border-bottom: 1px #d5cdda dashed;}
+.coupon_tit_show li{height:20px;line-height:20px; font-size:12px;color:#999;padding:0 15px;border-left:1px solid #d5cdda;float:left;cursor:pointer;}
+.coupon_tit_show li.first{border:none;}
+.coupon_tit_show li.current{color:#ff6600}
+/*汽车支付页*/
+.succar_bg{background: url(http://static4.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat;  background-position: -356px -553px;width:48px;height:48px;margin-right:20px;}
+.sopcar_tip { text-align: center; line-height: 20px; padding: 30px 0 20px 0; }
+.car_stepcar_icon{background:url(http://static.biyao.com/pc/buy/img/car_steps_car.png?v=biyao_047b7bc) left center no-repeat; width:420px;height:20px;}

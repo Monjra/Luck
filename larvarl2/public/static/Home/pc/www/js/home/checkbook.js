@@ -1,0 +1,1 @@
+function onclickHasBook(){LT.fcodeLogin(gotoMyBook)&&gotoMyBook()}function onclickNoBook(){window.location.href="list.html#nx2"}function gotoMyBook(){window.location.href="http://buy.biyao.com/book/index.html?offset=0&num=20#"}function hidePop(){$("#bookPop").attr("style","display:none")}$(document).ready(function(){});

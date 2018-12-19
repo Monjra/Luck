@@ -1,0 +1,671 @@
+@charset "utf-8";
+.index_bg_fff{background-color:#ffffff;position: relative;z-index: 101;}
+.ycshbtn{height: 23px;line-height: 23px;border:solid 1px #724A88;color:#724A88;padding:0 15px;margin-top: 10px;}
+.pd_t15 {padding-top: 15px;}
+.bd_f90{border: 1px solid #f90; }
+.red{color:red;}
+/*璁捐甯堟牱寮�*/
+.bannerDefault {height:170px; text-align: center; }
+.dsnerLeft {position:absolute;left:10px;top:36px;width:160px;background-color:#fff;padding:10px;}
+a.collectionBtn { border: 1px solid #d9d9d9; height: 18px; padding: 1px; background-color: #fff; border-radius: 3px; line-height: 18px; }
+a.collectionBtn span { width: 100%; height: 18px; display: block; background-color: #f2f2f2; text-align: center; color: #000; }
+.collectionIcon { width: 8px; height: 8px; background: url(/static/www/img/sprit_icon.png?v=biyao_bd86d57) no-repeat -750px -390px; }
+.dsnerNumUL { padding-top: 10px; text-align: center; line-height: 23px; color: #000; }
+.dsnerNumUL li { width: 100px; }
+.numSpe { font-size: 18px; font-family: Arial; }
+.dsnerRight p { text-align: left; padding-bottom: 10px; line-height: 23px; color: #ee5b47; }
+.dsnerRight p label { color: #000; }
+.dsnerCenter { margin: 8px 0px 8px 220px; }
+.dsnerCenter ul {}
+.dsnerCenter ul li {height:30px;}
+.dsAgreeBox {border: 1px dashed #666;height:60px;line-height:18px; background-color:#212121;margin:39px 39px 0 39px;padding:10px 0 10px 200px;}
+.dsAgreeBox .oneCostP {width:170px;height:65px; background-color:#000;border-right: 1px solid #666;text-align: center;color: #fff; line-height:25px;padding-top:15px;}
+.lbF label { float: left; color: #fff; margin-right:10px;}
+.lbF label:last-child  { float: left; color: #fff; width:140px;}
+.agBtnPos {position: absolute;right:20px;top:15px;}
+.dsEditBtnPos { position: absolute; position: absolute;width: 500px;}
+.remo { float:left; }
+.moondsSize {font-size: 18px; color: #fd5400; }
+.dsnerTitle{height: 40px; line-height: 40px; border-top-right-radius: 5px; border-top-left-radius: 5px; background-color: #fff; text-align: center; width: 120px; font-weight: bold; color: #000; }
+.dsnerlist {background-color: #fff; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top-right-radius: 5px; min-height: 200px; }
+.nomore_p {width: 200px; line-height: 40px; text-align: center; font-size: 14px; font-weight: bold; color: #666; background-color: #e6e6e6; margin: 20px 0 10px; }
+.setBannerTitle { line-height: 37px; border-bottom: 1px solid #e6e6e6; }
+.setBannerTitle li { border-top-left-radius: 5px; border-top-right-radius: 5px; border: 1px solid #e6e6e6; border-bottom: none; width: 100px; background-color: #e6e6e6; text-align: center; cursor: pointer; margin-right: 10px; }
+.setBannerTitle li.checked { background-color: #fff; position: relative; top: 1px; }
+.setBannerDfImg { padding: 30px 0 10px 30px; }
+.setBannerDfImg li { float: left; width: 400px; height: 72px; margin: 0 20px 20px 0; cursor: pointer; position: relative; }
+.setBannerDfImg li:hover { border: 2px solid #ee5b47; width: 396px; height: 68px; }
+.setBannerDfImg li:hover img { width: 396px; height: 68px; }
+.setBannerDfImg li:hover i { display: block; width: 28px; height: 28px; background: url(http://static4.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat -520px -150px; position: absolute; top: 0; right: 0; }
+.setBannerDfImg li.checked { border: 2px solid #ee5b47; width: 396px; height: 68px; }
+.setBannerDfImg li.checked img { width: 396px; height: 68px; }
+.setBannerDfImg li.checked i { display: block; width: 28px; height: 28px; background: url(http://static.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat -520px -150px; position: absolute; top: 0; right: 0; }
+.updsnerImg { width: 500px; height: 150px; background-color: #000; border: 1px solid #cccccc; text-align: center; }
+.updsnerImg p { line-height: 20px; padding-top: 10px; }
+.kindsBg1, .kindsBg2, .kindsBg3, .kindsBg4, .kindsBg5, .kindsBg6, .kindsBg7, .kindsBg8 { color: #fff; margin: 0 0px 4px 0; text-align: center; padding: 0 8px; line-height: 20px; }
+.kindsBg1 {background-color:#07A6DF;}
+.kindsBg2 {background-color:#EA494A;}
+.kindsBg3 {background-color:#8CC130;}
+.kindsBg4 {background-color:#FFC000;}
+.kindsBg5 {background-color:#FF7800;}
+.kindsBg6 {background-color:#7932EA;}
+.kindsBg7 {background-color:#EA3296;}
+.kindsBg8 {background-color:#C1943E;}
+.altTable {width:100%; margin:20px 0;}
+.altTable th {font-size:12px;font-weight: normal; color: #999; text-align: right; padding-right: 10px; line-height: 30px; }
+.altTable td {color:#fff;line-height: 30px; }
+/*璁捐甯堝井鍗氭澘鍧�*/
+.subTabTitle{padding:7px 0 10px;font-size:0;background:url() no-repeat bottom;text-align:center;}
+.subTabTitle li{height:40px;line-height:40px;width:49%;text-align:center;font-size:14px;}
+.subTabTitle li a{width:166px;height:42px;}
+.wbTitle1,.wbTitle2,.wbTitle3,.wbTitle4{background-image:url();}
+.wbTitle1{background-position:0 0;}
+.wbTitle2{background-position:0 -42px;}
+.wbTitle3{background-position:0 -84px;}
+.wbTitle4{background-position:0 -126px;}
+.wbOpusUl{font-size:0;background:url() repeat-x bottom;}
+.wbOpusUl li{font-size:14px;color:#fff;line-height:25px;}
+.wbOpusUl .firstLi{background-color:#000;width:230px;border-right:1px solid #cccccc;border-bottom:1px solid #cccccc;}
+.wbRArrow{width:15px;height:30px;background:url(../../../pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat -90px -440px;position:absolute;top:50%;margin-top:-15px;right:-15px;}
+.wbPlPos{position:absolute;bottom:10px;left:261px;}
+.wbLastUl{background-image:none;}
+.wbLastUl .firstLi{border-bottom:0;}
+.wbOpusInfo{color:#fff;}
+.wbOpusInfo h3{line-height:29px;background:url() repeat-x bottom;padding-left:30px;font-weight:normal;}
+.wbTable{width:90%;}
+.wbTable th{width:90px;text-align:right;font-size:12px;font-weight:normal;line-height:20px;color:#999;padding:5px 0;}
+.wbTable td{color:#333;padding:5px 0 5px 10px;}
+.nonepl { padding:40px; }
+/*璁捐甯堝垪琛�*/
+.dsnerList { float: left; }
+.dsnerListIn { border: 1px solid #cccccc; height: 130px; }
+.dsnerListIn ul { height: 130px; }
+.dsnerListIn ul li { padding: 7px 0 0px 10px; }
+.w183{width:171px;}
+.quotedPrice{padding:5px 0 5px 40px;}
+.quotedPrice li{height:80px;padding:40px 20px 40px 80px;}
+.quotedPrice li div{width:150px;height:60px;position:relative;background-color:#cccccc;border:1px dashed #cccccc;padding:10px 0 10px 40px;line-height:30px;}/*鏈閫夋嫨鏃剁殑鍙宠竟鏂囧瓧*/
+.quotedPrice li div .raduisBg{position:absolute;top:-14px;left:-80px;width:107px;height:107px;background-image:url();background-position:-880px 0;}/*鏈閫夋嫨鏃剁殑宸﹁竟鍥炬爣*/
+.quotedPrice li.checked{color:#fff;}/*琚�変腑鏃跺瓧浣撻鑹�*/
+.quotedPrice li.checked span{font-weight:bold;}/*琚�変腑鏃跺姞绮�*/
+.quotedPrice li div .raduisBg i{display:block;width:90px;height:90px;background-image:url();margin:8px auto 0;}/*寮曠敤鍏叡鐨勫浘鏍�*/
+.quotedPrice li.checked span.right{width:20px;height:20px;background:url() no-repeat -720px -110px;position:absolute;bottom:5px;right:5px;}/*琚�変腑鏃剁殑瀵瑰嬀*/
+.imgRadius1 i{background-position:-0px -110px;}/*鏈�変腑鏃剁殑鍥炬爣*/
+.imgRadius1:hover i{background-position:-0px -200px;}/*鎮仠鏃剁殑鍥炬爣*/
+.quotedPrice li.checked div.imgRadius1{border:1px solid #F1C50F;}/*琚�変腑鍙宠竟鏂囧瓧杈规棰滆壊*/
+.quotedPrice li.checked div.imgRadius1 .raduisBg{background-position:0px 0px;}/*閫変腑鐨勮儗鏅壊*/
+.checked .imgRadius1 i{background-position:-0px -200px;}/*閫変腑鏃剁殑鍥炬爣*/
+.imgRadius2 i{background-position:-90px -110px;}
+.imgRadius2:hover i{background-position:-90px -200px;}
+.quotedPrice li.checked div.imgRadius2{border:1px solid #74DCD7;}
+.quotedPrice li.checked div.imgRadius2 .raduisBg{background-position:-110px 0;}
+.checked .imgRadius2 i{background-position:-90px -200px;}
+.imgRadius3 i{background-position:-180px -110px;}
+.imgRadius3:hover i{background-position:-180px -200px;}
+.quotedPrice li.checked div.imgRadius3{border:1px solid #E64D2E;}
+.quotedPrice li.checked div.imgRadius3 .raduisBg{background-position:-220px 0;}
+.checked .imgRadius3 i{background-position:-180px -200px;}
+.imgRadius4 i{background-position:-270px -110px;}
+.imgRadius4:hover i{background-position:-270px -200px;}
+.quotedPrice li.checked div.imgRadius4{border:1px solid #DAE069;}
+.quotedPrice li.checked div.imgRadius4 .raduisBg{background-position:-330px 0;}
+.checked .imgRadius4 i{background-position:-270px -200px;}
+.imgRadius5 i{background-position:-360px -110px;}
+.imgRadius5:hover i{background-position:-360px -200px;}
+.quotedPrice li.checked div.imgRadius5{border:1px solid #6B9737;}
+.quotedPrice li.checked div.imgRadius5 .raduisBg{background-position:-440px 0;}
+.checked .imgRadius5 i{background-position:-360px -200px;}
+.imgRadius6 i{background-position:-450px -110px;}
+.imgRadius6:hover i{background-position:-450px -200px;}
+.quotedPrice li.checked div.imgRadius6{border:1px solid #FCEA9F;}
+.quotedPrice li.checked div.imgRadius6 .raduisBg{background-position:-550px 0;}
+.checked .imgRadius6 i{background-position:-450px -200px;}
+.imgRadius7 i{background-position:-540px -110px;}
+.imgRadius7:hover i{background-position:-540px -200px;}
+.quotedPrice li.checked div.imgRadius7{border:1px solid #FFBCB9;}
+.quotedPrice li.checked div.imgRadius7 .raduisBg{background-position:-660px 0;}
+.checked .imgRadius7 i{background-position:-540px -200px;}
+.imgRadius8 i{background-position:-630px -110px;}
+.imgRadius8:hover i{background-position:-630px -200px;}
+.quotedPrice li.checked div.imgRadius8{border:1px solid #6A1DCA;}
+.quotedPrice li.checked div.imgRadius8 .raduisBg{background-position:-770px 0;}
+.checked .imgRadius8 i{background-position:-630px -200px;}
+/*璁捐甯� 6-18 */
+.designNumberS{line-height:25px;}
+.designNumberS a{font-size:12px;color:#333;}
+.designNumberS a.lineOne{width:1px;height:24px;background-color:#cccccc;}
+.designNumberS a span{color:#fff;}
+.designNumberS a.checked{font-weight:bold;color:#ee5b47;}
+.designNumberS a.checked span{font-weight:bold;color:#ee5b47;}
+.designTabTitle{height:27px;border-bottom:1px solid #cccccc;border-top:2px solid #999;}
+.designTabTitle li{width:312px;text-align:center;line-height:27px;position:relative;}
+.designTabTitle li.lastChild{width:311px;}
+.designTabTitle li.checked{border-top:2px solid #ee5b47;height:28px;top:-2px;}
+.designTabTitle li.checked span{height:28px;padding-top:0;position:absolute;top:0px;left:-1px;width:100%;border-left:1px solid #cccccc;border-right:1px solid #cccccc;background-color:#b2b2b2;color:#fff;}
+.bdBX{border-bottom:1px dotted #666;}
+.imgBd img{border:1px solid #cccccc; max-width:100%;}
+.dsnShareIcon{background:url() no-repeat -178px 0;}
+.sjsfc { cursor:pointer; }
+.sjsfc:hover .storeInfo{ display:inline;top:5px; }
+/*涓汉涓績*/
+.per_left { width: 188px; position: absolute; left: 0; top: 0; border:1px solid #E8E8E8 }
+.per_left .per_leftbox { background:#724a88}
+.my_center_ds{background:#fff; height:40px; line-height:40px; text-indent:5px;border:1px solid #ccc}
+.per_left .per_leftul { width: 180px; margin: 0 auto; line-height:20px; padding-bottom:10px; }
+.per_left .per_leftbox table { line-height:20px; width: 100%; text-align: center; border-top: 1px dotted #666;font-size:14px;}
+.per_left .per_leftbox table .div_line { width:1px; height:60px; background: #cccccc; margin: 5px auto; }
+.per_left .per_leftbox table td{line-height:35px;}
+.perleft_menu{border-top:4px solid #D5CDDA; background:#EEECEF}
+.perleft_menu a { line-height: 42px; display: block; font-size:14px;color:#666;margin:0 4px; border-bottom:1px solid #eee;padding-left:18px}
+.perleft_menu a:hover {background: url() no-repeat 10px center; }
+.perleft_menu li.a_check {background:#fff;border-left:3px solid #724A88; position:relative;left:-1px;width:190px;}
+.perleft_menu .a_check a { color: #724A88;}
+.perleft_menu .a_check a i { width: 27px; height: 42px; background-image: url(http://static2.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a); background-repeat: no-repeat;margin-right:16px; vertical-align:top;*vertical-align:middle }
+.perleft_menu .a_check a i.mcMIcon1 { background-position: -162px -317px; }
+.perleft_menu .a_check a i.mcMIcon2 { background-position: -189px -317px; }
+.perleft_menu .a_check a i.mcMIcon3 { background-position: -216px -317px; }
+.perleft_menu .a_check a i.mcMIcon4 { background-position: -243px -317px; }
+.perleft_menu .a_check a i.mcMIcon5 { background-position: -270px -317px; }
+.perleft_menu .a_check a i.mcMIcon6 { background-position: -297px -317px; }
+.perleft_menu .a_check a i.mcMIcon7 { background-position: -324px -317px; }
+.perleft_menu .a_check a i.mcMIcon8 { background-position: -351px -317px; }
+.perleft_menu .a_check a i.mcMIcon9 { background-position: -378px -317px; }
+.perleft_menu .a_check a i.mcMIcon10 { background-position: -405px -317px; }
+.perleft_menu .a_check a i.mcMIcon11 { background-position: -432px -317px; }
+.perleft_menu .a_check a i.mcMIcon12 { background-position: -459px -317px; }
+.perleft_menu .a_check a i.mcMIcon13 { background-position: -135px -317px; }
+.perleft_menu .a_check a i.mcMIcon14 { background-position: -111px -317px; }
+.per_right_out { margin-left: 190px; }
+.per_right_outre { margin-left: 0px !important; }
+.per_right { min-height: 763px; margin-left: 25px; }
+.mcBd { border: 1px solid #ccc; }
+.bdT2{border-top:2px solid #ee5b47;}
+.mcBdT { border: 1px solid #cccccc; border-width: 0 1px; }
+.per_title_er { height: 28px; line-height: 28px; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; text-align: center;  }
+.per_title_er a { float: left; font-size: 12px; font-weight: normal; width: 80px; border-right: 1px solid #ccc; color: #666; }
+.per_title_er a.checked {  color: #f60; }
+.per_title{height:22px;line-height:16px;font-weight:normal;font-size:16px; position: absolute;top:8px;right:0;}
+.per_title a.bd_r_none{border-right:none;}
+.per_title a {display:block;float:left;height:16px; line-height: 16px; border-right:1px solid #ccc; padding:0 15px; color:#999}
+.per_title a.a_checked { color:#f60;}
+.per_title a span { font-size:14px}
+.xx_set{ float: left;  cursor: pointer;}
+.xx_set i{background-position:-223px -44px; width:16px;height:16px; margin-left: 40px;margin-right:10px;}
+.per_table { margin: 20px 0; line-height: 30px;  color:#666;}
+.per_table th { font-weight: normal; text-align: right; font-size: 12px; padding-right: 5px; }
+.th80 th { width: 110px; }
+.th140 th { width: 140px; }
+.per_table td { padding: 5px 0; }
+.tkFileBtn{height:30px; line-height:30px; text-align:center;color:#f60; border:1px solid #f60; border-radius:3px;}
+.tkFileBtnDisable{height:30px; line-height:30px; text-align:center;color:#999; border:1px solid #999; border-radius:3px;}
+.tkFileBtnGray{height:25px; line-height:25px; text-align:center;color:#999; border:1px solid #ccc; border-radius:3px;}
+.tkFileBtnGray:hover{color:#f60; border:1px solid #f60;}
+.tranFile{filter:alpha(opacity:0);opacity:0; cursor:pointer}
+.designMsg {/*width: 600px;*/padding-top: 30px; text-align: center; color: #666; }
+.designMsg li {float:left;width:160px;height:40px;line-height:40px;padding-left:50px;text-align:right;}
+.designMsg li input[type="checkbox"] { border: 0; }
+.per_alerttable { margin: 20px auto; width: 580px; line-height: 30px; color: #666; }
+.per_alerttable th { font-weight: normal; text-align: right; font-size: 12px; padding-right: 10px; }
+.per_alerttable td { padding: 5px 0; }
+.alertTable { margin: 0px auto; width: 100%; line-height: 30px; color: #666; }
+.alertTable th { font-weight: normal; text-align: right; font-size: 12px; padding-right: 10px; }
+.alertTable td { padding: 5px 0; color: #000; }
+input.inp_col1 { color: #ccc; }
+.per_p { line-height: 40px; text-indent:10px; }
+.per_binding ul { float: left; width: 150px; padding: 20px 12px 0; }
+.per_binding ul li { width: 150px; margin-top: 5px; text-align: center; }
+.bindyes { display: inline-block; height: 30px; padding-left: 20px; line-height: 30px; margin-top: 20px; background: url(http://static3.biyao.com/pc/www/img/tip_icon.png) no-repeat 0 -30px; }
+.bindicon_sina { background: url() no-repeat 0 0px; }
+.bindicon_renren { background: url() no-repeat 0 -110px; }
+.bindicon_tqq { background: url() no-repeat 0 -220px; }
+.bindicon_qzone { background: url() no-repeat 0 -330px; }
+.bindicon_pengyou { background: url() no-repeat 0 -440px; }
+.bindicon_douban { background: url() no-repeat 0 -550px; }
+.bindicon_kaixin { background: url() no-repeat 0 -660px; }
+.peropus { width: 218px; border: 1px solid #e6e6e6; border-radius: 3px; text-align: center; padding: 8px 0 12px; background-color: #f7f7f7; margin: 0 20px 20px 0; cursor: pointer; display: inline-block; +display:inline; zoom: 1; vertical-align: top; }
+.peropus li { padding: 8px 0; line-height: 18px; }
+.peropus li.centerimg a { display: block; float: left; width: 66px; height: 66px; padding: 2px 0 3px 5px; }
+.peropus li.centerimg a img { width: 66px; height: 66px; }
+.peropusDerails { padding-bottom: 20px; clear: both; }
+.peropusDerails .poustime { height: 50px; color: #333; line-height: 23px; border-bottom: 1px dotted #666; position: relative; margin-bottom: 50px; }
+.peropusDerails .poustime p { position: relative; top: 30px; width: 60px; background-color: #fff; padding-left: 10px; }
+.peropusDerails .poustime p span { font-size: 30px; color: #000; height: 27px; font-weight: bold; }
+.falls_itemre { float: left; position: relative; margin-bottom: 20px;margin-left:15px ;border:1px solid #fff; padding:0 16px;height:308px;width:200px}
+.falls_itemre:hover{border:1px solid #d5cdda}
+.peropusDerails .ul_list { cursor:pointer; border-bottom:1px solid #f4f2f4}
+.img_delete { position: absolute; top: 10px; right: 10px; height: 18px;   width: 16px;  }
+.img_delete a { background-position:-584px -145px; width:16px;height:18px; display:inline-block;}
+.img_delete a:hover{background-position:-584px -117px;}
+.peropusDerails .ul_list li.title { height: 30px; line-height: 30px; text-align: center;  white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; width: 200px; overflow: hidden;  color:#333 }
+.peropusDerails .ul_list li.littel_icon { padding:0 5px; height: 20px; line-height: 20px; text-align: center; }
+.laud_number { width: 37px; background: url(http://static4.biyao.com/pc/www/img/sprit_icon.png?v=biyao_bd86d57) no-repeat -730px -300px; padding-left: 24px; color: #EE5B47; cursor: pointer; }
+.per_list1 { width: 100%; line-height: 30px;  position: relative; top: -1px;border:1px solid #eeecef; border-collapse: collapse; }
+.per_list1 th { text-align: center; font-weight: normal; font-size: 12px; background-color: #f8f8f8; color: #999; }
+.per_list1 td {  text-align: center; padding: 5px 0; line-height: 28px; border:1px solid #eeecef;border-collapse: collapse;  }
+.perTableTitle { height: 30px; width:100%;text-align:center;line-height:30px;margin-bottom:20px;color: #333; }
+.perTableTitle1 { height: 27px; width: 100%; text-align: center; line-height: 27px; color: #999; background:#eee }
+.perTableTitle span { position: relative; top: 15px; padding: 0 10px; display:inline-block }
+.per_list2 { background: #e6e6e6; padding-bottom: 4px; }
+.per_list2 table { width: 100%; border-bottom: none; line-height: 30px; background: #fff; margin-top: 20px; }
+.per_list2 table th { text-align: center; font-weight: normal; font-size: 12px; background: #e6e6e6; }
+.per_list2 table td { border-bottom: 1px solid #ebebeb; text-align: center; padding: 10px 0; color: #333; }
+.totalNum { height: 28px; border: 1px solid #ee5b47; background-color: #212121; padding-left: 30px; color: #fff; line-height: 28px; top: -2px; font-size: 14px; }
+.per_email { line-height: 25px; padding: 40px 0; }
+.per_upfileImgBox { padding: 30px 0 20px 20px; }
+.per_upfileImgBox .bigImgArea { float: left; width: 300px; height: 300px; background: #cccccc; display: block; border: 1px solid #cccccc; }
+.per_upfileImgBox .bigImgArea .upBtn_tip { text-align: center; line-height: 50px; padding-top: 120px; }
+.per_upfileImgBox .bigImgArea .upBtn_tip span { overflow: hidden; +zoom:1; }
+.perMsgTitle { height: 28px; line-height: 28px; padding-left: 10px; border-top: 2px solid #ee5b47; background-color: #ebebeb; color: #333; }
+.perMsgTitle .msgSelect { height: 28px; position: relative; width: 80px; }
+.perMsgTitle .msgSelect span { display: block; color: #333; }
+.perMsgTitle .msgSelect ul { display: none; }
+.perMsgTitle .msgSelect:hover ul { display: block; postion: absolute; width: 100px; border: 1px solid #ee5b47; background-color: #fff; color: #333; }
+.perMsgTitle .msgSelect:hover ul li { padding-left: 10px; }
+.perMsgTitle .msgSelect:hover ul li:hover { background-color: #ee5b47; color: #fff; }
+.perTabTit{height:39px;line-height:39px; border-top:1px solid #eee; margin-top:35px;}
+.perTabTitn{ line-height:39px;height:39px; clear:both}
+.msgTab { }
+.msgTab .readAll { height: 30px; line-height: 30px; padding: 0 15px; border-top: 3px solid #999; border-bottom: 1px solid #cccccc; cursor: pointer;color:#fff;background-color:#cccccc; }
+.msgTab .bd3 { border-top: 3px solid #ee5b47; }
+.msgTab .readAll a { font-weight: bold; }
+.msgTab table { width: 100%; line-height: 23px; color: #999; margin: 10px 0; }
+.msgTab table tr:hover { background-color: #cccccc; color: #fff; }
+.msgTab table th { width: 60%; text-align: left; padding: 5px 0 5px 15px; font-weight: normal; }
+.msgTab table td { width: 20%; text-align: right; padding: 5px 15px 5px 0; }
+.msgTab table .hoverBg { background-color: #f7f7f7; }
+.msgTab table .ft_w th { font-weight: bold; }
+.msgTab table .ft_w { font-weight: bold; }
+.fileInput { display: block; font-size: 23px; filter: alpha(opacity=0); -maz-opacity: 0; opacity: 0; cursor: pointer; position: absolute; left: 0; top: 0; left: 0px\9; }
+.upbox1 { width: 90px; height: 20px; }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.file_input { left: -110px; }
+.file_input1 { left: -70px; font-size: 10px; width: auto; }
+}
+.per_upfileImgBox .showImgArea { width: 320px; float: left; margin-left:50px; color: #b3b3b3; }
+.per_upfileImgBox .showImgArea dl dt { float: left; width: 180px; }
+.per_upfileImgBox .showImgArea dl dd { width: 60px; float: left; padding-left: 55px; }
+.bigimg { width: 150px; height: 150px; overflow: hidden; }
+.middleimg { width: 60px; height: 60px; overflow: hidden; }
+.smallimg { width: 32px; height: 32px; margin: 0 auto; overflow: hidden; }
+.bigimg img, .middleimg img, .smallimg img { position: absolute; }
+.per_upfileImgShare dt { clear: both; line-height: 60px; }
+.per_upfileImgShare dd { display: inline-block; width: 90px; height: 115px; margin-right: 40px; }
+.per_imgp { line-height: 18px; padding: 5px 0 16px; }
+.per_imgMask { position: absolute; width: 300px; height: 300px; background: #000; top: 0; left: 0; filter: alpha(opacity=50); opacity: 0.5; z-index: 100; }
+.per_imgReupfile { position: absolute; height: 20px; line-height: 20px; top: -23px; right: 0; z-index: 120; padding-left: 20px; background: url(http://static.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat -575px -415px; cursor: pointer; }
+.per_imgReupfile span { overflow: hidden; +zoom:1; display: block; }
+.masksed{margin-left:-15px;}
+.share_a a{display:inline-block; border:1px solid #ccc; width:60px;height:30px; line-height: 30px; border-radius:3px;color:#666;}
+.share_a a:hover{background:#b768a5;color:#fff;border:1px solid #b768a5;}
+.shareBg{width:15px;height:11px; background-position:-241px -244px; margin-right:5px;}
+.share_a:hover .shareBg{background-position:-241px -274px;}
+.sharePrice{line-height: 30px; font-size:25px;color:#f49f26; font-family: "Georgia"}
+.share_icon { width: 40px; background: url(../../../pc/www/img/sprit_icon.png?v=biyao_bd86d57) no-repeat -610px -103px; padding-left: 13px; }
+.share_icon a { color: #999; }
+.share_pic { position: absolute; top: -43px; left: 80px; width: 269px; height: 68px; display: none; }
+.share_box { margin: 40px 0px 0px 20px; }
+.share_box a { width: 97px; display: block; float: left; text-align: center; color: #666; line-height: 40px; }
+.share_box a span { display: block; height: 55px; width: 55px; margin: 0 auto; }
+.share_icon1 { background: url(http://static2.biyao.com/pc/www/img/share_icon.png?v=biyao_d94f81e) no-repeat 0 0px; }
+.share_icon2 { background: url(http://static3.biyao.com/pc/www/img/share_icon.png?v=biyao_d94f81e) no-repeat 0 -55px; }
+.share_icon3 { background: url(http://static4.biyao.com/pc/www/img/share_icon.png?v=biyao_d94f81e) no-repeat 0 -110px; }
+.share_icon4 { background: url(http://static.biyao.com/pc/www/img/share_icon.png?v=biyao_d94f81e) no-repeat 0 -165px; }
+.share_icon5 { background: url(../../../pc/www/img/share_icon.png?v=biyao_d94f81e) no-repeat 0 -220px; }
+.share_icon6 { background: url(http://static2.biyao.com/pc/www/img/share_icon.png?v=biyao_d94f81e) no-repeat 0 -275px; }
+.share_icon7 { background: url(http://static3.biyao.com/pc/www/img/share_icon.png?v=biyao_d94f81e) no-repeat 0 -330px; }
+
+.magnify_box { width: 960px; height: 600px; position: absolute; top: 50px; left: 50%; margin-left: -480px; z-index: 1000; }
+.magnify_box .mag_close { width: 26px; height: 26px; background: url() no-repeat -3px 0; position: absolute; top: 10px; right: 10px; cursor: pointer; }
+.store_title {height: 27px; border-top: 3px solid #cccccc; border-bottom: 1px solid #cccccc; background-color: #cccccc; }
+.store_title li {float:left; cursor:pointer;width:90px;text-align:center; height:27px;line-height:27px;position: relative; }
+.store_title li.checked{border-right: 1px solid #cccccc;border-left: 1px solid #cccccc;background-color:#b2b2b2;height:28px;left:-1px; }
+.store_title li.checked span{display:block;width:92px;border-top:3px solid #ee5b47;position:absolute;top:-3px;left:-1px;height:28px;color:#fff;}
+.store_title li span.index_icon { display:inline-block; width: 19px; height: 22px; background: #fff url(http://static4.biyao.com/pc/www/img/sprit_icon.png?v=biyao_bd86d57) no-repeat -70px -10px; }
+/*鍒嗘楠�*/
+.stepsUl {height:27px;text-align:center;border-bottom:1px solid #cccccc;border-top:3px solid #666;background-color:#cccccc;border-left:1px solid #cccccc;border-right:1px solid #cccccc;}
+.stepsUl li {float:left;height:27px;line-height:27px;position:relative;}
+.steps3 li { width:33%; }
+.steps3 li:last-child {width:34%;}
+.steps4 li {width:25%;}
+.steps5 li {width:20%;}
+.stepsUl li.bdFFF span{border-top:3px solid #fff;height:28px;top:-3px;position:absolute;width:100%;}
+.stepsUl li.checked  span{display:block;position:absolute;width:100%;height:28px;top:-3px;border-top:3px solid #fff;color:#ee5b47;background-color:#b2b2b2;}
+.stepsUl li.checked  span em{display:block;position:relative;height:28px;width:100%;border-left:1px solid #cccccc;border-right:1px solid #cccccc;left:-1px;}
+.stepsUlod {height: 37px; text-align: center;  background-color: #eee; }
+.stepsUlod li {float:left; position: relative; z-index: 10;height:37px;line-height:37px;font-size:14px;}
+.stepsUlod.steps5 li {width:20%;}
+.stepsUlod li span {font-size:14px;}
+.stepsUlod li.bdFFF  span{border-top:3px solid #b2b2b2;height: 38px; top: -3px; color: #fff;height:38px;display:block;width:100%;position:absolute;left:0px;top:-3px;color:#333;}
+.stepsUlod li.checked span {height:37px;display:block;width:100%;color:#fff; background-color: #b2b2b2; }
+/*鎴戠殑璁㈠崟*/
+.perLine { border: 1px solid #cccccc; }
+.order_title {height:35px;line-height:35px;padding:0 10px;background-color:#eeecef; border:1px solid #e8e8e8; border-bottom:none}
+.order_title_msg{margin:10px; background:#eee; border:1px solid #ccc; height:28px ;line-height:28px;}
+.lineT { border-top: 1px solid #cccccc; }
+.lineB { border-bottom: 1px solid #cccccc; }
+.thLineB td { border-bottom: 1px solid #cccccc; }
+.thLineB th { border-bottom: 1px dotted #666; font-weight: normal; line-height: 28px; padding-left: 10px; }
+.StoreAssBack { border: 1px solid #333; background-color: #cccccc; color: #fde7c9; padding: 10px; line-height: 28px; }
+.lineTB { border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; }
+.sop_table4 { width: 100%;line-height:20px;background:#fff;}
+.sop_table4 th{font-size: 12px;font-weight:normal;}
+.sop_table4 td{/*vertical-align:top;*/}
+.sop_table4 td.pd_t15{padding-top:15px;}
+.sop_table4 table { border-bottom:1px solid #e8e8e8;}
+.sop_table4 table:last-child {border-bottom: none;}
+.sop_table4 table td {padding-top: 10px;padding-bottom:10px;}
+
+.sop_table5 td {padding-top: 0px!important; padding-bottom:10px;}
+
+.sop_table1 { width: 100%; line-height: 20px; }
+.sop_table1 th {font-size:12px; font-weight: normal; height: 28px; min-width: 40px;color:#333;}
+.sop_table1 td { padding-top: 15px; padding-bottom: 15px; }
+.sop_table2 { width: 100%; border-bottom: 1px solid #ebebeb; line-height: 20px; }
+.sop_table2:last-child { border-bottom: none; }
+.sop_table2 th { width: 20%; padding-left: 10px; font-weight: normal; }
+.sop_table2 td { }
+.sop_table3 { width: 870px; color: #333; font-size: 13px; color: #808080; line-height: 30px; }
+.sop_table3 th { font-weight: normal; font-size: 14px; }
+.bd_l { border-left: 1px solid #e8e8e8; }
+.bd_b { border-bottom: 1px solid #e8e8e8; }
+.bd454545{ border:1px solid #cccccc;width:98px;}.bd454545 img{width:98px;}
+.perCmImg img{width:90px;height:90px}
+.logisticsList{width:100%;}
+.logisticsList th{line-height:28px;border-bottom:1px dotted #666;font-size:12px;font-weight:normal;padding-left:25px;text-align:left;color:#333;}
+.logisticsList td{line-height:29px;border-top:1px solid #212121;font-size:12px;padding-left:25px;text-align:left;color:#666;}
+.logisticsList tr.bdNone td{border-top:0;}
+/**/
+.shoppingInfo {position:absolute;z-index:999;top:-1px;left:-1px;width: 100%;border: 1px solid #ee5b47;display:none;}
+.shoppingInfo table {background-color:#fff}
+.shoppingInfo table th {height:30px;line-height:30px;}
+.shoppingInfo table td {padding-top:15px; padding-bottom:15px;}
+.shoppingInfo table .bd_radd { border-right: 1px solid #cccccc; }
+.shoppingInfo table .bd_badd { border-bottom: 1px solid #cccccc; }
+.pd0{padding:0 !important;}
+.firmbox { height: 38px; line-height: 38px; width: 100%; border: 1px solid #ee5b47; position: relative; bottom: -1px; left: -1px; background-color: #212121; }
+.refundsupImg { width: 298px; height: 198px; border: 1px solid #cccccc; position: relative; }
+.rfBtnPos { position: absolute; width: 100%; text-align: center; top: 70px; line-height: 30px; }
+.rfFlie { position: absolute; height: 20px; line-height: 20px; top: 3px; right: 5px; z-index: 120; padding-left: 20px; background: url(http://static.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat -575px -415px; cursor: pointer; }
+.rfFlie span { overflow: hidden; +zoom:1; display: block; }
+.rfupImg { width: 100%; height: 170px; margin-top: 28px; }
+.perTextTip { line-height: 30px; }
+.orderdetails_box1 { padding:28px 32px 25px; }
+.orderdetails_box1 p { line-height: 25px;  color:#666;  }
+.orderdetails_box2 { border: 1px solid #ee5b47; padding: 25px; }
+.orderdetails_box2 p { padding-bottom: 10px; line-height: 30px; color: #fff; padding-left: 15px; }
+.orderbtn { width: 65px; height: 25px; line-height: 20px; border: 1px solid #ccc; line-height: 25px; text-align: center; color: #666;border-radius:2px }
+.orderbtn:hover{border:1px solid #f60; color:#f60}
+.orderbtn i { width: 20px; height: 20px; background-image: url(../../../pc/www/img/sprit_biyao.png?v=biyao_f04e37a); background-repeat: no-repeat; }
+.orderbtn i.billIcon { background-position: -210px -240px; }
+.orderbtn i.shareIcon { background-position: -240px -240px; }
+.assess_share { width: 20px; height: 20px; background: url(http://static2.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat -240px -240px; }
+.orderbtn:hover { border: 1px solid #ee5b47; color: #ee5b47; }
+.orderbtn:hover i.billIcon { background-position: -210px -270px; }
+.orderbtn:hover i.shareIcon { background-position: -240px -270px; }
+.orderBtnPos { position: absolute; bottom: 0; left: 0; }
+.optometryTable{width:100%;bottom:0;left:0;position:absolute;}
+.optometryTable > div{border:1px solid #ee5b47; border-width:2px 1px 1px 2px;height:24px;}
+.optometryTable table{width:100%;}
+.optometryTable table th{height:24px;line-height:24px;padding:0;background-color:#ee5b47;color:#fff;text-align:center;}
+.optometryTable table td{height:24px;line-height:24px;padding:0;text-align:center;}
+.tdR{border-right:1px dotted #ee5b47;}
+/*鏉愭枡娓呭崟寮瑰嚭灞傛牱寮�*/
+.matLayP { line-height: 30px; color: #fff; font-size: 14px; }
+.matLayUl ul { float: left; width: 100px; text-align: center; line-height: 30px; margin: 10px; color: #999; }
+.matLayUl ul .imgLi { width: 98px; height: 98px; border: 1px solid #e6e6e6; }
+/*鎴戠殑鍏虫敞*/
+.followOne {margin:10px 0; padding-bottom:10px }
+.followOne:hover .flBtnPos{display:block;}
+.per50 { float: left; width: 50%; }
+.followOne ul { height: 130px; }
+.followOne ul li { padding: 7px 0 0px 10px; color: #999; }
+.followImg { width: 130px; height: 130px; }
+.followImg img { width: 130px; height: 130px; }
+.flBtnPos { position: absolute; bottom: 0px; left: -10px; }
+.flBtnPosre { position: absolute; bottom: 5px; left: 0px; }
+.followOne .flright { position: absolute; left: 400px; top: 0; height: 130px; padding: 0; overflow: hidden; }
+.followOne .flright li { height: 130px; width: 99px; border-left: 1px solid #cccccc; padding: 0; }
+/*璇勪环*/
+.assessIcon { width: 54px; height: 52px; background: url(http://static3.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat -1px -441px; }
+.assessBox { height: 150px; }
+.assessBox .titleBox { width: 110px; height: 115px; padding-top: 35px; border-right: 1px solid #cccccc; text-align: center; line-height: 30px; color: #fff; }
+.research_icon { width: 25px; height: 118px; position: fixed; bottom: 20px; right: 20px; z-index: 100; background: url() no-repeat; overflow: hidden; text-indent: -999em; }
+.research_icon a { display: block; }
+.survey { height: 90px; }
+.gotop { height: 25px; margin-top: 2px; }
+/*澶村儚璁剧疆瑁佸垏*/
+.J_drag_img { position: absolute; z-index: 1; }
+.head_img_t, .head_img_b, .head_img_l, .head_img_r { width: 100%; height: 100%; background: #000; filter: alpha(opacity=20); -maz-opacity: 0.2; opacity: 0.2; position: absolute; z-index: 2; }
+.head_img_t, .head_img_b { height: 100px; }
+.head_img_t { top: 0; }
+.head_img_b { bottom: 0; }
+.head_img_l, .head_img_r { top: 100px; height: 100px; width: 100px; }
+.head_img_l { left: 0; }
+.head_img_r { right: 0; }
+.head_img_mark_btn { z-index: 3; position: absolute; background: #666; bottom: -5px; right: -5px; width: 10px; height: 10px; border: 1px solid #fff; cursor: nw-resize; }
+.head_img_mark { width: 150px; height: 150px; background: url() repeat; z-index: 3; position: absolute; top: 100px; left: 100px; cursor: crosshair; opacity: 0.6;filter: alpha(opacity=60);}
+.J_falls { min-height: 70px; }
+/*娑堟伅绮剧伒-鏂�*/
+.newMsgTitle{border-bottom:1px solid #e8e8e8;background-color:#f5f5f5; height:39px}
+.newMsgTitle li{padding:0 15px;text-align:center;color:#666;cursor:pointer;height:40px; line-height:40px; border-right:1px solid #e8e8e8; }
+.newMsgTitle li.per14{width:14%;}
+.newMsgTitle li.checked{color:#333;background-color:#fff;height:41px}
+.newMsgTitle li i{background-image:url(http://static4.biyao.com/pc/www/img/msgIcon.png?v=biyao_82ea154);}
+.msgImg1{background-position:0px 0px;}
+.checked .msgImg1{background-position:0px -35px;}
+.msgImg2{background-position:-35px 0px;}
+.checked  .msgImg2{background-position:-35px -35px;}
+.msgImg3{background-position:-70px 0px;}
+.checked .msgImg3{background-position:-70px -35px;}
+.msgImg4{background-position:-105px 0px;}
+.checked  .msgImg4{background-position:-105px -35px;}
+.msgImg5{background-position:-140px 0px;}
+.checked  .msgImg5{background-position:-140px -35px;}
+.msgImg6{background-position:-175px 0px;}
+.checked  .msgImg6{background-position:-175px -35px;}
+.msgImg7{background-position:-210px 0px;}
+.checked  .msgImg7{background-position:-210px -35px;}
+.msgImg8{background-position:-245px 0px;}
+.checked .msgImg8{background-position:-245px -35px;}
+.newMsgList{ margin:10px 0; border:1px solid #e8e8e8;}
+.newMsgList .linkRin{display:none}
+.newMsgList li div{line-height:28px;height:28px; position:relative;padding-left:10px; background:#f5f5f5; border-bottom:1px solid #e8e8e8}
+.newMsgList:hover{ border:1px solid #ccc}
+.newMsgList:hover .linkRin{display:block}
+.newMsgList li div span{padding:0 10px;}
+.newMsgBg{background-color:#cccccc;}
+.newMsgBg li div span{background-color:#212121;}
+.newMsgList li p{padding:10px 10px 12px 45px;line-height:20px;background: #fff}
+.bdXT666{border-top:1px dotted #666;}
+.bd_ccc{border:1px solid #ccc !important;}
+.readY{width:20px;height:16px;background:url(http://static.biyao.com/pc/www/img/msgIcon.png?v=biyao_82ea154) no-repeat -280px 0;}
+.readN{width:20px;height:16px;background:url(../../../pc/www/img/msgIcon.png?v=biyao_82ea154) no-repeat -280px -20px;}
+
+/*nan-鎴戠殑璐墿涔犳儻-2014.6.19*/
+.pd_t18{padding-top:18px}
+.lineH38{ line-height:38px}
+.bg_242f43{ background:#242f43}
+.bg_432c1e{ background:#432c1e}
+.bg_212121{ background:#212121}
+.bg_10141b{ background:#10141b}
+.bg_1b1410{ background:#1b1410}
+.habitsTab{ width:100%; border-collapse:collapse;}
+.habitsTab td{ border:1px solid #333333}
+.habitsTab td.bdl_none{ border-left:none}
+.habitsTab td.bdr_none{ border-right:none}
+.habitsTab td.bd_r6{ border-right:1px solid #666}
+.habitsTab td.bd_b6{border-bottom:1px solid #666}
+.habitsTab .tit_line td{ line-height:36px}
+.habitsTab .sub_tit_line td{ line-height:26px}
+.order_link:hover{ text-decoration:underline}
+.attribute_item{ line-height:22px; padding:5px 10px}
+.habitsTab .line{border-bottom: 1px dotted #666;}
+.relative { position:relative; }
+.hands { cursor:pointer; }
+/*nan-璁捐甯堣儗鏅�-2014.6.25*/
+.lineH28{ line-height:28px}
+.pd_b15{ padding-bottom:15px}
+.borderLD45{ border-left:1px dotted #cccccc;}
+.pd_lr_24{ padding:0 24px}
+.grade_info_box{height:113px;}
+.gradeMsg_item{ left:11px}
+.gradeMsg_ul{ border:1px solid #ee5b47; border-left:31px solid #ee5b47; border-radius:5px; left:0; color:#333 }
+.gradeMsg_ul i{ width:18px; height:18px;left:-34px; top:4px}
+.GIcon{ background:url(http://static2.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat;}
+.gradeIC1{ background-position:-531px -219px;}
+.gradeIC2{ background-position:-531px -247px;}
+.gradeIC3{ background-position:-531px -275px;}
+.gradeIC4{background-position:-536px -310px; width:13px; height:7px;top:105px; left:12px}
+.gradeIC5{ background-position:-537px -301px; width:7px; height:4px; left:45px;}
+.pass_show{left:130px !important;}
+.progress_bar_bg{ border:1px solid #cccccc; height:32px; border-radius:20px}
+.progress_bar_bg li{ width:167px; height:32px; }
+.progress_bar_box{top:-23px;left:25px;}
+.progress_bar{filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7ce028', endColorstr='#00b3ff',gradientType=1); /* for IE */
+background: -webkit-gradient(linear, left top, right top, from(#7ce028), to(#00b3ff)); /* for webkit browsers */
+background: -moz-linear-gradient(left, #7ce028, #00b3ff); /* for firefox 3.6+ */ background:-ms-linear-gradient(left , #7ce028, #00b3ff)/* for IE10+ */; border-radius:5px; height:10px;width:1px;}
+.grade_img_box .gm_1{ margin-right:63px}
+.grade_img_box .gm_2,.grade_img_box .gm_3{ margin-right:81px;}
+.grade_img_box .gm_4{ margin-right:75px;}
+.grade_img_box .gm_5{ margin-right:60px}
+.grade_img_box .gm_2 .gradeIC5,.grade_img_box .gm_4 .gradeIC5{ top:-3px}
+.font_g{ font-family:"Georgia";}
+.mH810{min-height:810px}
+.tmBd{border-top:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8}
+
+.certificateList li{width:100px; height:100px;position:relative;}
+.certificateList li img{width:100px; height:100px;}
+
+/*鎺ㄥ箍绠＄悊*/
+.noticeCon{padding-top:22px;}
+.noticeCon .title{padding-bottom:13px; border-bottom:1px dotted #e8e8e8; }
+.noticeCon .title span{line-height:20px}
+.noticeCon .title i{ width:4px; height:15px; background:#f60; margin-right:17px}
+.noticeCon .content{padding:10px 20px 15px; border-bottom:2px solid #eee;}
+.noticeCon .content dl{ line-height:24px; position:relative; color:#666}
+.noticeCon .content dl dt{ position:absolute; top:0;left:0;*top:-4px}
+.noticeCon .content dl dd{padding-left:15px;}
+.earningsInfo{ margin:18px 0 12px 0;}
+.earningsInfo li{width:131px ; border-right:1px solid #ccc;height:45px; }
+.ef_num{line-height:25px}
+.deposit_num{line-height:37px}
+.deposit_msg{height:35px; line-height:35px;}
+.bd_dot{ border-bottom:1px dotted #e8e8e8;}
+.shareTimeBox{padding-bottom:30px;}
+.shareTimeInfo li{height:25px; line-height:25px; color:#666}
+.st_txt{border:1px solid #ccc; height:23px; line-height:23px; width:84px; padding:0 21px 0 5px; background:url(http://static3.biyao.com/pc/www/img/input_bg.png?v=biyao_a71aad5) no-repeat right center; color:#999}
+.nextShare{top:20px; }
+.hollowAbtn i{ background: url(http://static4.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat 0 -193px; width:5px; height:10px}
+.shareTab{ width:100%;color:#666; text-align:center}
+.shareTab th{ line-height:30px; background:#f5f5f5; font-weight:normal;padding:0 10px; }
+.shareTab td{padding:20px 10px; border-bottom:1px dotted #e8e8e8}
+.doubtMsg{background:url(http://static.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat 0 -161px; width:18px; height:18px; z-index:99}
+.doubt_details{ position:absolute; left:-150px; top:15px; width:300px;margin-top:15px; border:1px solid #ccc; z-index:101; padding:10px; background:#fff; color:#666; display:none; border-radius:5px; }
+.doubt_details span{background-position: -32px -170px;position:absolute; height:9px; width:15px; z-index:102 ; top:-8px; left:150px}
+.noticeCon .doubtBox{width:18px; height:18px; z-index:100}
+.noticeCon .doubtBox:hover .doubt_details{display:block}
+.constructionBtn{background:url(../../../pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat -186px 0; width:110px; height:27px; text-indent:25px; line-height:27px; color:#666}
+.superviseBank{background:url(http://static2.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) no-repeat -297px 0; width:121px; height:27px; line-height:27px; color:#666; text-align:center}
+.shareTxtBtn{left:550px}
+
+.order_comment{height:40px; line-height: 40px; background:#eee;}
+.order_num{height:37px;line-height:37px;border-bottom:1px dotted #ccc; padding-left:15px;}
+.bd_bottom_dotted{border-bottom:1px dotted #ccc;}
+.bd_top_1{border-top:1px solid #e8e8e8;}
+.breadcrumbs{height:43px;line-height:43px;}
+
+.lh25{line-height: 30px!important;}
+.mg_l50 {margin-left:50px;}
+.wl_w{border:solid 1px #FF9900;background: #FFFCF3;}
+.fgx{border-bottom:dotted 1px #FF9900;font-size:0px; margin:20px 0px 20px 0px;}
+.wl_dl_w{margin:10px 0px 10px 0px;line-height: 30px;min-height:50px;background-image:url(http://static3.biyao.com/pc/www/img/mycenter/wl2.png?v=biyao_d90b256);background-position:5px 5px;background-repeat:repeat-y;overflow:hidden;}
+.wl_dl:first-child{padding-left:30px;background-image:url(http://static4.biyao.com/pc/www/img/mycenter/wl1.png?v=biyao_38a66f6);background-position:2px -7px;background-repeat:no-repeat;color:#523669;}
+.wl_dl{padding-left:30px;background-image:url(http://static.biyao.com/pc/www/img/mycenter/wl3.png?v=biyao_e952a39);background-position:5px 13px;background-repeat:no-repeat;overflow:hidden;}
+.wl_dl:last-child{padding-left:30px;background-image:url(../../../pc/www/img/mycenter/wl4.png?v=biyao_282eba3);background-position:5px 13px;background-repeat:no-repeat;}
+.w900{width:900px;}
+.w150{width:150px;}
+.w280{width:275px;}
+
+.wl_dl span{display:inline-block; float: left;}
+.c_wl_w{text-align:left;position:absolute;top:0px; left:-220px;display:none; width:500px;z-index:1000000;}
+.c_wl_n{padding:15px 20px 15px 20px;border:solid 1px #E8E8E8;background-color:#ffffff;margin-top:-2px;box-shadow:0px 0px 5px #808080;}
+.c_wl_t{font-size:14px;}
+.c_fgx{border-bottom:dotted 1px #cccccc;font-size:0px; margin:10px 0px 10px 0px;}
+.wl_jd{width:100%;background-image:url(http://static2.biyao.com/pc/www/img/mycenter/wl5.png?v=biyao_de430cf);background-position:center 15px;height:30px;background-repeat:no-repeat;position:relative;z-index:100;} 
+
+.presell{width:64px;height:20px; text-align: center;color:#fff; background: #f49f26; line-height: 20px; margin-left: 10px}
+.bd_F3C7A9{border:1px solid #F3C7A9;}
+
+.orderTxtn{height:23px; line-height: 23px}
+.orderLeftn{margin-left:60px;}
+.bd_top_cc_dot{border-top:1px dotted #ccc;}
+.progress_box{width:280px;height:15px;background:#e8e8e8;}
+.progress_box .active{width:10%;background:#b768a5;height:15px;}
+.order_msgn{height:19px;line-height: 19px}
+.order_titn_tab th{height:28px;height:28px;color:#666; font-weight: normal; text-align: center;}
+.sop_table4_n{width:100%; border-collapse: collapse; }
+.sop_table4_n td{border:1px solid #e8e8e8; border-collapse: collapse;padding: 10px}
+
+.myOrder_r{position: absolute;top:-5px; right:0;}
+.set_pop_msg li{ margin-right:30px; float: left; line-height: 30px}
+
+.reality_box{height:40px; line-height: 40px; border:1px solid #e8e8e8; border-top:none; background:#f5f5f5;padding-right:30px;}
+.upLoading_btn{width:97px;height:30px;border:1px solid #ccc; line-height:30px; text-align:center;background:#fff}
+
+.order_tit_n{color:#666;}
+.order_tit_n:hover{color:#b668a4; text-decoration: underline;}
+.free_btn_icon{width:64px;height:20px; line-height: 20px;text-align: center;color:#fff;background: #CF5063;margin-left:10px;}
+
+/*coupon*/
+.col_fbf9ed{color:#fbf9ed}
+.coupon_help_bg{ background: url(http://static3.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) -42px -329px no-repeat; width:13px;height:13px}
+.coupon_tit_list{overflow:hidden;position:relative;top:5px}
+.coupon_tit_list li{padding:0 18px;height:17px;line-height:17px;border-left:1px solid #d5cdda;float:left}
+.coupon_tit_list li.first{border:none;padding:0 18px 0 0;}
+.coupon_tit_list li a{color:#999;}
+.coupon_tit_list li.current a{color:#ff6600}
+.coupon_wrap{margin-top:15px;margin-left:-20px}
+.coupon_item{width:480px;height:175px;position:relative;margin-bottom:20px;margin-left:20px;}
+.coupon_left_bg,.coupon_right_bg{width:5px;height:175px;position:absolute;top:0;}
+.coupon_left_bg{left:0}
+.coupon_right_bg{background: url(http://static4.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) -233px -359px no-repeat; right:0}
+.coupon_bg_f8b .coupon_left_bg{background: url(http://static.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) -220px -359px no-repeat;}
+.coupon_bg_89d .coupon_left_bg{background: url(../../../pc/www/img/sprit_biyao.png?v=biyao_f04e37a) -245px -359px no-repeat;}
+.coupon_bg_aaa .coupon_left_bg{background: url(http://static2.biyao.com/pc/www/img/sprit_biyao.png?v=biyao_f04e37a) -257px -359px no-repeat;}
+.coupon_left_con{padding:9px 8px 8px 6px;width:297px;height:158px;margin-left:5px; float:left;display:inline;}
+.coupon_right_con{width:159px;height:175px;background:#fbf9ee;float:left;}
+.coupon_bg_f8b .coupon_left_con{ background:#f8b67c;}
+.coupon_bg_89d .coupon_left_con{ background:#89d2a8;}
+.coupon_bg_aaa .coupon_left_con{ background:#aaaaaa;}
+.coupon_type{border:1px dashed #fad8b5;padding:25px 30px 20px 25px; text-align:center;}
+.coupon_condition{height:56px;line-height:56px;margin-bottom:5px}
+.coupon_sum{font-family: "Arial"; font-size:72px;color:#fbf9ed;height:56px;padding-right:15px;border-right:1px dashed #fad8b5;display:inline-block }
+.coupon_sum span{font-size:40px;color:#fbf9ed;font-family: "Arial";}
+.coupon_bg_f8b .coupon_sum{border:none}
+.coupon_bg_89d .coupon_sum{border:none}
+.coupon_bg_aaa .coupon_sum{border:none}
+.coupon_scope{width:100%;height:25px;line-height:25px;text-align:center;font-size:14px;background:#fbf9ed}
+.coupon_bg_f8b .coupon_scope{color:#f8b67c;}
+.coupon_bg_89d .coupon_scope{color:#89d2a8;}
+.coupon_bg_aaa .coupon_scope{color:#aaaaaa;}
+.coupon_use_btn{width:103px;height:34px; line-height:34px;text-align:center; font-size:14px;color:#fefefe;}
+.mg_t70{margin-top:70px}
+.mg_t24{margin-top:24px}
+.coupon_bg_f8b .coupon_use_btn{background:#f8b67c}
+.coupon_bg_89d .coupon_use_btn{background:#89d2a8}
+.coupon_order{line-height:18px;font-size:14px;}
+.coupon_bg_f8b .coupon_order{color:#f8b67c;}
+.coupon_bg_89d .coupon_order{color:#89d2a8;}
+.coupon_bg_aaa .coupon_order{color:#aaaaaa;}
+
+.exchange_area{position:absolute;top:10px;right:10px; z-index:1000}
+.exchange_wrap input{width:230px;height:28px;line-height:28px;color:#666;font-size:14px;padding:0 5px;border:1px solid #ddd; border-right:none；}
+.exchange_wrap a{width:80px;height:30px;line-height:30px;text-align:center;font-size:14px;color:#fff;background:#f95452}
+
+/* 预约列表*/
+.wl_jd1{width:38px;background:url(http://static3.biyao.com/pc/www/img/mycenter/wl6.png?v=biyao_cb21f7b);height:23px;background-repeat:no-repeat;position:absolute;bottom:-14px;left:100px;z-index:100;} 
+.Reservation_wl_w1 {text-align: left;position: absolute;bottom: 35px;left: -40px;display: none;width: 240px;z-index: 1000000;}
+.Reservationpart:hover .Reservation_wl_w1{display: block;}
+
+
+

@@ -1,0 +1,117 @@
+body{background:#f8f8f8;}
+.home_banner{width:1200px;height:380px; overflow: hidden; position: relative;}
+.home_banner_list{height:380px;position: relative;}
+.home_banner_list li{width:1200px;height:380px; position: absolute;left: 0;top:0;}
+.home_banner_list li a{width:1200px;height:380px;}
+.home_banner_order{position: absolute; width: 1200px; left: 50%;bottom:23px; margin-left: -600px; text-align:center;}
+.home_banner_order li{text-indent: -10000px;width:16px;height:16px; background: url(../../../pc/www/img/teamIcon.png?v=biyao_c5c7d34) -26px 0; margin-right: 15px;cursor: pointer;}
+.home_banner_order li.checked{ background: url(../../../pc/www/img/teamIcon.png?v=biyao_c5c7d34) -5px 0;}
+.feature_info{width:1200px;height:69px;background: #fff;border-top:1px solid #eeeeee; -webkit-box-shadow:0 0 5px rgba(0, 0, 0, .2);  -moz-box-shadow:0 0 5px rgba(0, 0, 0, .2);  
+  box-shadow:0 0 5px rgba(0, 0, 0, .2);   }
+.feature_info_list li{width:300px; height:69px; text-align: center; line-height: 69px}
+.home_bg_f6f{background: #f6f6f6}
+.home_bg_fof{background:#f0f2f1;}
+.home_bd_bottom{border-bottom:10px solid #fff;}
+.by_info{height:147px;}
+.by_info .bg1{background: url(../../../pc/www/img/teamIcon.png?v=biyao_c5c7d34) -13px -29px;width:50px;height:50px; margin-top:20px; margin-bottom: 10px}
+.by_info .bg2{background: url(../../../pc/www/img/teamIcon.png?v=biyao_c5c7d34) -16px -102px;width:15px;height:8px;margin-top: 10px}
+.by_info .con{ line-height: 30px; font-size: 18px ;color:#a194a8;}
+.home_variety{width:1000px; margin:0 auto 20px;}
+.home_vari_img{position: relative;}
+.home_vari_img img{z-index: 8}
+.home_vari_img,.home_vari_img img,.home_vari_msg{width:690px;height:280px; }
+.home_vari_msg{border:0;background: #c9c1d0; position: absolute;top: 0;left: 0 ; z-index: 10; display: none}
+.home_vari_msg td{padding: 0 127px; font-size: 14px ; line-height: 26px;color:#fff;height:280px;}
+.home_vari_img:hover .home_vari_msg{ display: block}
+.home_vari_txt{ background: url(../../../pc/www/img/h/home_vari.jpg?v=biyao_9e4c75e) no-repeat;width:300px;height:280px;}
+.home_vari_txt:hover{ background: url(../../../pc/www/img/h/home_vari_hover.jpg?v=biyao_8162910) no-repeat;}
+.home_vari_mg{margin-top: 60px;}
+
+.j_furnishing .home_vari_txt{ background: url(../../../pc/www/img/h/home_vari_j.jpg?v=biyao_e13fc5b) no-repeat;width:300px;height:280px;}
+.home_vari_txt:hover{ background: url(../../../pc/www/img/h/home_vari_hover.jpg?v=biyao_8162910) no-repeat;}
+.j_furnishing .home_vari_mg{margin-top: 30px;}
+.j_furnishing_txt1{font-size:16px;margin-top:13px;color:#fff;height:16px;line-height: 16px}
+.j_furnishing_txt2{font-size:24px;margin-top:6px;color:#fff; font-weight:bold;height:24px;line-height: 24px}
+.j_furnishing_btn{margin-top:23px;}
+.j_furnishing_btn a{width:180px;height:50px; line-height: 50px; color:#a194a8;font-size: 24px;text-align:center; background: #ffffff}
+
+.home_vari_txt .vote_n_btn{width:156px;height:36px; line-height: 36px;cursor: pointer; margin:35px auto 0;}
+.home_vari_txt .vote_n_btn p{width:156px;height:36px;border:1px solid #fff;}
+.home_vari_txt .vote_n_btn p.checked{border:1px solid #a194a8;}
+.home_vari_txt .vote_n_btn i{ background:url("../../../pc/www/img/vote_new.png?v=biyao_05fb17a") -10px -42px no-repeat;width:24px;height: 22px; margin:0 10px;}
+.home_vari_txt .vote_n_btn .checked i{background-position:-10px -10px}
+.home_vari_txt .vote_n_btn span{color:#fff;font-size: 14px}
+.home_vari_txt .vote_n_btn .checked span{color:#a194a8;}
+.home_vari_txt .vote_line{width:9px;height:14px;border-left:1px solid #fff;overflow: hidden;}
+.home_vari_txt .vote_n_btn .checked .vote_line{border-left:1px solid #a194a8;}
+/*商家店铺*/
+.shop_details{margin: 33px 0 0 30px; height:45px; border-left: 1px solid #eae4e8;padding-left:30px; }
+.shop_extra{height:65px;position: relative;}
+.s_logo{padding-right:30px;border-right:1px dashed #eae4e8;margin-right: 30px}
+.s_logo .shop_name{color:#8c8292;}
+.shop_info .shopdsr_item{width:40px; line-height: 22px; text-align: center;}
+.shopdsr_item .title{color:#8c8292;}
+.shopdsr_item .grade{color:#f49f26;}
+.extra_info{background: #fff; border:1px solid #eae4e8; position: absolute;top:60px;left:0; z-index: 999; width:358px; display:none;}
+.shop_extra:hover .extra_info{display: block;}
+.extra_left{float: left;width:135px;}
+.extra_left .header{width:110px;}
+.extra_left .header img{width:108px;height:108px; border:1px solid #eeecef;}
+.extra_list li{width:35px; border-right:1px solid #eeecef;line-height: 18px; color:#8c8292;}
+.extra_list li.last{border-right:none;}
+.attention_btn{margin-top: 15px; text-align: center; width: 110px}
+.attention_btn a{width:80px;height:26px; line-height: 26px;background: #a660a3;border-radius:13px;}
+.attention_btn a i{background:url("../../../pc/www/img/attention_bg.png?v=biyao_5bb67ee") -10px -31px no-repeat; width:13px;height:11px;}
+.attention_btn a span{height:26px;line-height: 26px; color:#fff; font-size: 12px;}
+.attention_btn a.checked{background: #fff;border:1px solid #a660a3;}
+.attention_btn a.checked i{background:url("../../../pc/www/img/attention_bg.png?v=biyao_5bb67ee") -10px -10px no-repeat;}
+.attention_btn a.checked span{color:#a660a3; }
+.extra_right{width:220px; float: left;}
+
+.smXjGray1{width:103px;height:15px;background:url(../../../pc/www/img/sprit_biyao.png?v=biyao_f04e37a) -339px -250px no-repeat; position: relative;}
+.smXjF601{height:15px;background:url(../../../pc/www/img/sprit_biyao.png?v=biyao_f04e37a) -339px -268px no-repeat; position: absolute;left: 0;top: 0;}
+.chatinfo_table1 { width: 100%; color: #666; line-height: 24px; overflow: hidden;margin-bottom: 13px }
+.chatinfo_table1 th { width: 65px; font-weight: normal; font-size: 12px; text-align:left;  color: #8c8292}
+.chatinfo_table1 td { color: #8c8292; }
+.sever_msg_s{border-top:1px solid #eeecef; padding-top: 13px; line-height: 20px; color: #999999}
+.s_info_box{border-top:1px solid #eeecef; padding-top: 13px;}
+
+.home_layout{width:100%;height: 100%; background: url(../../../pc/www/img/home_layout_bg.png?v=biyao_8753517);position: fixed;left: 0;top:0; z-index: 10000; display: table  }
+.layout_box{ vertical-align:middle;display:table-cell;+margin-top:10px;}
+.home_pay_btn{background: url(../../../pc/www/img/pay_btn.png?v=biyao_75d5791) no-repeat;width:188px;height:60px;}
+.home_yy_btn{background: url(../../../pc/www/img/yy_btn.png?v=biyao_beffcf5) no-repeat;width:188px;height:60px;}
+.home_sold_btn{background: url(../../../pc/www/img/sold/sold.png?v=biyao_cbfe392) no-repeat;width:188px;height:60px;}
+.home_appointment_btn{background: url(../../../pc/www/img/sold/appointment.png?v=biyao_0a2af9c) no-repeat;width:188px;height:60px;}
+.home_order_btn{background: url(../../../pc/www/img/sold/s2.png?v=biyao_eb9e4b9) no-repeat;width:164px;height:60px;}
+.home_link_btn{background: url(../../../pc/www/img/sold/s3.png?v=biyao_956ad74) no-repeat;width:164px;height:60px;}
+.sj_bg{background: url(../../../pc/www/img/sold/s5.png?v=biyao_523d6f1) no-repeat center bottom; height: 600px}
+
+/*20150707*/
+.w470{width:470px;}
+.w195{width:195px;}
+.bg_f6f{background:#f6f6f6;}
+.h_category_tit{height:40px; line-height: 40px;font-size: 18px;color:#503767;font-weight: normal; position:relative;}
+.h_category_tit .more{color:#503767;font-size: 14px;position: absolute;right:0;top:5px;}
+.h_experience_list{margin-left: -20px;}
+.h_experience_list li{float:left;margin-left: 20px;display:inline;position:relative;border:10px solid #fff; height:180px;margin-bottom: 20px}
+.h_expertit{position:absolute;left:0;bottom:0;height:40px; width:100%;}
+.h_expertit_bg{background:#000; filter:alpha(opacity=50);-moz-opacity:0.5; opacity:0.5;height:40px; display: block;}
+.h_expertit_con{position: absolute;left: 0;bottom:0;height:40px; line-height: 40px;padding:0 10px;font-size: 14px;color:#fff; display: block;}
+
+/*如何查看验光单*/
+.optometry{padding:40px 76px;}
+.opt_msg_list li{height:36px;line-height: 36px;padding-left:17px;color:#333;font-size: 14px;border:1px solid #fff;}
+.ft_msg .opt_msg_list li{height:28px;line-height: 28px;color:#24211d;font-size: 14px;}
+.bg_col1{background:#fae2ef;}
+.bg_col2{background:#ffffe0;}
+.bg_col3{background:#e1e4fd;}
+.bg_col4{background:#e8fffb;}
+.bg_col5{background:#effee6;}
+
+.banner_tit h3{font-size:24px;line-height:30px;color:#333; font-weight:normal;}
+.banner_tit h4{font-size:18px;line-height:30px;color:#666;padding-top:7px; font-weight:normal;}
+.banner_con{padding-top:20px;}
+.banner_con a{display:block;margin-top:17px;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, .2);  -moz-box-shadow:0 0 5px rgba(0, 0, 0, .2);  
+  box-shadow:0 0 5px rgba(0, 0, 0, .2);}
+
+
